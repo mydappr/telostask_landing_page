@@ -5,7 +5,7 @@ import { CheckerButton, CheckColor } from "../constants/themeCheckerForBg";
 export const Container = styled.div`
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 100%;
+ 
 `;
 
 export const Frame = styled.h1`
