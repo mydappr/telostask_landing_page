@@ -28,10 +28,11 @@ export const Frame = styled.h1`
 
 export const Logo = styled.img`
   max-width: 100px;
-  margin-left:1em;
+  
 
   @media (min-width: 900px) {
     min-width: 150px;
+    margin-left:1em;
   }
 `;
 
