@@ -1,12 +1,14 @@
 import styled from "styled-components";
 import { Link as RouterLinks } from "react-router-dom";
  
-import { CheckColor} from '../constants/themeCheckerForBg'
+import { CheckerHBg, CheckColor} from '../constants/themeCheckerForBg'
 
 export const Container = styled.footer`
   margin-top: 5em;
-  margin-bottom: 2em;
+  
   margin-left: 2em;
+  background: ${() => CheckerHBg("Sbbg")} top left/cover  no-repeat;
+  margin: 0 auto;
 `;
 
 export const FirstFrame = styled.div`
@@ -17,6 +19,7 @@ export const FirstFrame = styled.div`
 
 export const Left = styled.div`
   text-align: start;
+  margin: 0 auto;
   @media (max-width: 850px) {
     display: none;
   }
@@ -45,6 +48,7 @@ export const QuickSection = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-left:1em;
 `;
 export const SectionTitle = styled.h3`
 color:${() => CheckColor("#1f3045", "#f0f4fc")}`;

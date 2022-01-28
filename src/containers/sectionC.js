@@ -1,11 +1,13 @@
 import { Sectionc } from "../components";
 
 import React from "react";
-import YoutubeEmbed from "../YoutubeEmbed";
+import SectionC from "../components/sectionC";
+ 
 
 function SSectionc() {
   return (
-    <Sectionc>
+    <SectionC.Bg>
+      <Sectionc>
       <Sectionc.FirstFrame>
         <Sectionc.Left>
           <Sectionc.Paragraphs>
@@ -45,9 +47,9 @@ function SSectionc() {
       <Sectionc.SecondFrame>
         <Sectionc.Title>Task Categories</Sectionc.Title>
         <Sectionc.SecondFrameBottom>
-          <Sectionc.Card>
+          <Sectionc.Card> 
             <Sectionc.CardTop>
-              <Sectionc.TaskImg src="./icons/micro.png" />
+              <Sectionc.TaskImg  src={require("../icons/micro.png")}/>
               <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
             </Sectionc.CardTop>
             <Sectionc.CardBody>
@@ -58,7 +60,7 @@ function SSectionc() {
           </Sectionc.Card>
           <Sectionc.Card>
             <Sectionc.CardTop>
-              <Sectionc.TaskImg src="./icons/macro.png" />
+              <Sectionc.TaskImg  src={require("../icons/micro.png")} />
               <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
             </Sectionc.CardTop>
             <Sectionc.CardBody>
@@ -70,6 +72,7 @@ function SSectionc() {
         </Sectionc.SecondFrameBottom>
       </Sectionc.SecondFrame>
     </Sectionc>
+    </SectionC.Bg>
   );
 }
 

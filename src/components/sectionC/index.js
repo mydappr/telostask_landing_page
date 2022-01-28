@@ -14,6 +14,7 @@ import {
   TypeTitle,
   CardBody,
   Dot,
+  Bg,
 } from "./sectionC";
 
 export default function SectionC({ children, ...restprops }) {
@@ -68,7 +69,9 @@ SectionC.CardTop = function SectionCCardTop({ children }) {
 SectionC.TaskImg = function SectionCTaskImg({ ...restprops }) {
   return <TaskImg {...restprops} />;
 };
-
+SectionC.Bg = function SectionCBg({children, ...restprops }) {
+  return <Bg >{children}</Bg>;
+};
 SectionC.TypeTitle = function SectionCTypeTitle({ children }) {
   return <TypeTitle>{children}</TypeTitle>;
 };

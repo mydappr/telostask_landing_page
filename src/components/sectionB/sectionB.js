@@ -5,12 +5,12 @@ export const Frame = styled.section`
   display: flex;
   justify-content: space-between;
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
-  max-width: 1450px;
+  max-width: 1300px;
   flex-wrap: wrap;
-  position: relative;
-
+  position:relative;
+   
   margin: 0 auto;
-  top: -7px;
+  top: -17px;
   align-items: center;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -21,7 +21,7 @@ export const Frame = styled.section`
   @media (max-width: 600px) {
     flex-direction: column;
     height: 100%;
-    top: 50px;
+  
   }
 `;
 

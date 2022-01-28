@@ -6,7 +6,7 @@ function FFooter() {
     <Footer>
       <Footer.FirstFrame>
         <Footer.Left>
-          <Footer.Logo src="./icons/logo.png" />
+          <Footer.Logo  src={require("../icons/logo.png")} />
           <Footer.Body>
             The Telostask platoform is a platoform that rewards
             users/freelancers for completing micro or macro tasks or to clients
@@ -46,10 +46,10 @@ function FFooter() {
       </Footer.FirstFrame>
       <Footer.SecondFrame>
         <Footer.SocialImageFrame>
-          <Footer.SocialsImg  to={"//https://twitter.com/telostask"}  src="./icons/twitter icon.png" />
-          <Footer.SocialsImg  to={"//github.com"} src="./icons/github icon.png" />
-          <Footer.SocialsImg  to={"//http://telostask.medium.com/"} src="./icons/medium icon.png" />
-          <Footer.SocialsImg to={"//http://t.me/Telostask"}  src="./icons/telegram icon.png" />
+          <Footer.SocialsImg  to={"//https://twitter.com/telostask"}  src={require("../icons/twitter.png")} />
+          <Footer.SocialsImg  to={"//github.com"}  src={require("../icons/github.png")} />
+          <Footer.SocialsImg  to={"//http://telostask.medium.com/"}  src={require("../icons/medium.png")} />
+          <Footer.SocialsImg to={"//http://t.me/Telostask"}  src={require("../icons/telegram.png")} />
         </Footer.SocialImageFrame>
         <Footer.Copyright>
           Copyright © 2020-2021 TelosTask. All Rights Reserved.

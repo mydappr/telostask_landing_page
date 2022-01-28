@@ -7,8 +7,8 @@ function SSectionD() {
         <SectionD.FirstFrame>
           <SectionD.Title>Partners</SectionD.Title>
           <SectionD.ImageFrame>
-            <SectionD.Image src="./icons/Telos logo.png" />
-            <SectionD.Image src="./icons/My dappr logo.png" />
+            <SectionD.Image to={"//www.telos.net"}  src={require("../icons/telos.png")} />
+            <SectionD.Image to={"//mydappr.io/"} src={require("../icons/mydappr.png")} />
           </SectionD.ImageFrame>
         </SectionD.FirstFrame>
         <SectionD.SecondFrame>

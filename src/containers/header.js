@@ -14,7 +14,7 @@ function HHeader() {
       <Header.Frame>
         <Header.Logo
           to={"//telostask.app"}
-          src="./icons/logo.png"
+          src={require("../icons/logo.png")}
           alts="telostask logo"
         />
 
@@ -37,7 +37,7 @@ function HHeader() {
           <Header.ButtonLink to={"//telostask.app/register"}>
             Sign Up
           </Header.ButtonLink>
-          <Header.Themebtn onClick={themeToggler} src="./icons/day-icon.png" />
+          <Header.Themebtn onClick={themeToggler}  src={require("../icons/day-icon.png")}  />
         </Header.RightFrame>
       </Header.Frame>
     </Header>

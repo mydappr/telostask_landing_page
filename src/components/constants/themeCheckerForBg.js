@@ -4,7 +4,7 @@ import { darkTheme } from "../../containers/theme";
 
 export function CheckerHBg(pic) {
   const { theme } = useContext(ThemeContext);
-  return theme === "dark" ? "" : `url(./icons/${pic}.png);`;
+  return theme === "dark" ? "" : `url(${require(`../../icons/${pic}.png`)});`;
 }
 
 export function CheckColor(lightColor, darkColor) {

@@ -5,6 +5,14 @@ import { CheckerButton, CheckColor } from "../constants/themeCheckerForBg";
 export const Container = styled.div`
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  z-index:1;
+  width: 100%;
+  margin-bottom:2em;
+  @media (max-width:600px){
+    margin-bottom:8em;
+  }
  
 `;
 
@@ -20,6 +28,7 @@ export const Frame = styled.h1`
 
 export const Logo = styled.img`
   max-width: 100px;
+  margin-left:1em;
 
   @media (min-width: 900px) {
     min-width: 150px;
@@ -48,6 +57,7 @@ export const Textlink = styled(RouterLink)`
 export const Themebtn = styled.img`
   width: 35px;
   height: 35px;
+  cursor:pointer;
 `;
 
 export const RightFrame = styled.div`
@@ -63,7 +73,7 @@ export const RightFrame = styled.div`
 `;
 
 export const ButtonLink = styled(RouterLink)`
-  background: ${CheckerButton("#FFC600")};
+  background: ${CheckerButton("#1DBF73")};
   padding: 0.5em;
 
   border-radius: 0.7em;
@@ -71,7 +81,23 @@ export const ButtonLink = styled(RouterLink)`
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
+   @media (min-width:700px){
+     width:40%;
+   }
+  
+  
   outline: ${CheckerButton("#DEE7F5")};
   text-decoration: none;
   color: white;
+  &: hover{
+    background: ${CheckerButton("#FFC600")};
+  }
+  @media (max-width: 700px) {
+    
+    
+    &: hover{
+      background: ${CheckerButton("#1DBF73")};
+    }
+  }
+
 `;

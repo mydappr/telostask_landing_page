@@ -5,7 +5,7 @@ function SSectionB() {
   return (
     <SectionB>
       <SectionB.Services>
-        <SectionB.ServiceImg src="./icons/image 1.png" />
+        <SectionB.ServiceImg  src={require("../icons/image1.png")}/>
         <SectionB.Title>Professional Freelancer</SectionB.Title>
         <SectionB.Body>
           Your skills are required by serveral companies and organazations who
@@ -14,7 +14,7 @@ function SSectionB() {
       </SectionB.Services>
 
       <SectionB.Services>
-        <SectionB.ServiceImg src="./icons/image 2.png" />
+        <SectionB.ServiceImg  src={require("../icons/image2.png")} />
         <SectionB.Title>Payment Protection</SectionB.Title>
         <SectionB.Body>
           Earn cryptocurrency for completing tasks and receive rewards to your
@@ -23,7 +23,7 @@ function SSectionB() {
       </SectionB.Services>
 
       <SectionB.Services>
-        <SectionB.ServiceImg src="./icons/image 3.png" />
+        <SectionB.ServiceImg  src={require("../icons/image3.png")} />
         <SectionB.Title>Task Listing Simplified</SectionB.Title>
         <SectionB.Body>
           Easy task listing with an inntuitive UI for bith freelancers and

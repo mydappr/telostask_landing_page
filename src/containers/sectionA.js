@@ -16,7 +16,7 @@ function SSectionA() {
         </SectionA.Btnframe>
       </SectionA.LeftFrame>
 
-      <SectionA.SectionAImg src="./icons/Hero image.png" />
+      <SectionA.SectionAImg  src={require("../icons/hero.png")} />
     </SectionA>
   );
 }

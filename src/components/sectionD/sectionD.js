@@ -22,7 +22,7 @@ export const ImageFrame = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 20%;
+  width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 1em;
   cursor: pointer;
