@@ -74,16 +74,17 @@ export const RightFrame = styled.div`
 `;
 
 export const ButtonLink = styled(RouterLink)`
-  background: ${CheckerButton("#1DBF73")};
+  background: ${CheckerButton("#fcb41c")};
   padding: 0.5em;
 
   border-radius: 0.7em;
   border-color: transparent;
   font-size: 1rem;
   font-weight: bold;
+  width:40%;
   cursor: pointer;
-   @media (min-width:700px){
-     width:40%;
+   @media (max-width:800px){
+     width:${({width}) => (width)}%;
    }
   
   

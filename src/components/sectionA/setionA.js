@@ -7,8 +7,8 @@ export const Frame = styled.section`
   margin: 0 auto;
   margin-top: 2.5em;
 
-  @media (max-width:700px){
-    margin-bottom:4em;
+  @media (max-width: 800px) {
+    margin-bottom: 4em;
   }
 `;
 
@@ -18,11 +18,8 @@ export const LeftFrame = styled.div`
   margin-top: 2em;
   margin-left: 3em;
 
-  @media (max-width: 700px) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-center;
-
+  @media (max-width: 800px) {
+    
     margin: 3em auto;
     margin-bottom: 0;
   }
@@ -35,13 +32,14 @@ export const SectionAImg = styled.img`
   }
 `;
 export const Btnframe = styled.div`
- margin-bottom: 2em;
+  margin-bottom: 2em;
   @media (max-width: 800px) {
-     text-align: center;
-  
+    text-align: center;
+    display: flex;
     width: 100%;
+    justify-content: center;
     margin-top: 2em;
-    
+    align-self: center;
   }
 `;
 export const Title = styled.h1`
@@ -52,14 +50,14 @@ export const Title = styled.h1`
 
   @media (max-width: 800px) {
     margin: 0 auto;
-    margin-top:0.8em;
-     
+    margin-top: 0.8em;
+
     max-width: 450px;
   }
 
   @media (max-width: 550px) {
-    font-size:1.5rem;
-    text-align:center;
+    font-size: 1.5rem;
+    text-align: center;
     max-width: 350px;
   }
 `;

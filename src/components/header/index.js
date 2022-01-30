@@ -44,6 +44,6 @@ Header.TextLinks = function HeaderTextlinks({ children, to , ...restprops }) {
   return <Textlink {...restprops} to={to}>{children}</Textlink>;
 };
  
-Header.ButtonLink = function HeaderButton({ children, ...restprops }) {
-  return <ButtonLink {...restprops}>{children}</ButtonLink>;
+Header.ButtonLink = function HeaderButton({ width=true, children, ...restprops }) {
+  return width? <ButtonLink width={width} {...restprops}>{children}</ButtonLink> :children;
 };

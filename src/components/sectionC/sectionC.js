@@ -37,7 +37,7 @@ export const Left = styled.div`
 export const Dot = styled.span`
   height: 15px;
   width: 15px;
-  background-color: ${() => CheckColor("#1DBF73", "#1DBF73")};
+  background-color: ${() => CheckColor("#E8A317", "#1DBF73")};
   border-radius: 50%;
   display: inline-block;
 `;

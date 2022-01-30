@@ -10,7 +10,7 @@ function SSectionA() {
         </SectionA.Title>
         <SectionA.Body>"Do less, earn more"</SectionA.Body>
         <SectionA.Btnframe>
-          <Header.ButtonLink to={"//telostask.app"}>
+          <Header.ButtonLink width={55} to={"//telostask.app"}>
             Get started
           </Header.ButtonLink>
         </SectionA.Btnframe>
