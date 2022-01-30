@@ -91,9 +91,7 @@ export const ButtonLink = styled(RouterLink)`
   outline: ${CheckerButton("#DEE7F5")};
   text-decoration: none;
   color: white;
-  &: hover{
-    background: ${CheckerButton("#FFC600")};
-  }
+ 
   @media (max-width: 700px) {
     
     
