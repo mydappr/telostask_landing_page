@@ -6,6 +6,7 @@ export const Frame = styled.section`
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 2.5em;
+    max-width: 1500px;
 
   @media (max-width: 800px) {
     margin-bottom: 4em;
@@ -19,7 +20,6 @@ export const LeftFrame = styled.div`
   margin-left: 3em;
 
   @media (max-width: 800px) {
-    
     margin: 3em auto;
     margin-bottom: 0;
   }
@@ -36,6 +36,9 @@ export const Btnframe = styled.div`
   @media (max-width: 800px) {
     text-align: center;
     display: flex;
+    @media (min-width: 900px) {
+      width: 50%;
+    }
     width: 100%;
     justify-content: center;
     margin-top: 2em;

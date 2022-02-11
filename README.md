@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# What is TelosTask?
+[Telostask](https://telostask.app/login) is a freelance marketplace for micro and macro tasks listing and work completion with an intuitive user experience integrated on the blockchain for work transparency, job improvement, job opportunities, easy workflow, rich tokenomics, sustainable business plan and provision of solutions to the biggest shortcoming of the traditional platforms.
+# The Utility/ Governance Features of the Task Token
+The Task Token is a utility token on the Telos Task platform which gives you access to the full range of the platform’s services. There are 100 million Task Tokens in total supply, with 16 % (16m) allocated to the Team, 20% (20m) for Development, 40% (40m) for ITO, 20% (20m) for Marketing, 1% (1m) for AirDrop and 3% (3m) unallocated for now. The Task Token is deflationary in nature and will increase in monetary value as there will be a decrease in total token supply overtime. It will gradually deflate from a 100% initial token supply distribution to a reduced 60% total token supply because token burns will occur monthly or on specific dates. The tokens to be burned will be taken from 50% of task listing fees and sometimes from unallocated tokens in cases of unallocated or no token usage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Who's behind Telostask?
+The Telos Task platform was crafted by the [Mydappr](Mydappr.io) team as a marketplace for micro and macro tasks listings by Task Givers, and work completion by Task Takers or Freelancers.
 
-## Available Scripts
+# Follow us on social media
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Telegram](https://t.me/@telostask)
+- [Twitter](https://Twitter.com/@telostask)
+- [Facebook](https://Facebook/@TelosTask)
+- [LinkedIn](https://www.linkedin.com/showcase/71098913/)

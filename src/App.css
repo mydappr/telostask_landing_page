@@ -15,7 +15,6 @@ code {
 
 .App {
   text-align: center;
-  max-width: 2000px;
 
   margin: 0 auto;
 }
@@ -42,20 +41,32 @@ iframe {
 @media (max-width: 900px) {
   iframe {
     width: 500px;
-     
   }
 }
 
 @media (max-width: 550px) {
   iframe {
     width: 400px;
- 
   }
 }
 
 @media (max-width: 410px) {
   iframe {
     width: 340px;
-   
   }
+}
+.sliderFrame {
+  max-width: 1400px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .sliderFrame {
+    width: 90%;
+  }
+}
+
+.newsFrame {
+  margin-bottom: 3em;
 }

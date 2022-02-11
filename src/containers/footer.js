@@ -1,43 +1,78 @@
 import React from "react";
 import { Footer } from "../components";
+import CheckThemeForIcon from "../lib/checkThemeForIcon";
 
 function FFooter() {
   return (
     <Footer>
       <Footer.FirstFrame>
         <Footer.Left>
-          <Footer.Logo  src={require("../icons/logo.png")} />
+          <Footer.Logo src={require("../icons/logo.png")} />
           <Footer.Body>
             The Telostask platoform is a platoform that rewards
-            users/freelancers for completing micro or macro tasks or to clients
-            looking to outsource micro or macro tasks.
+            users/freelancers for completing micro or medium tasks or to clients
+            looking to outsource micro or medium tasks.
           </Footer.Body>
         </Footer.Left>
         <Footer.Right>
           <Footer.QuickSection>
             <Footer.SocialsFrame>
               <Footer.SectionTitle>My Account</Footer.SectionTitle>
-              <Footer.Links to="//telostask.app/login">Login</Footer.Links>
-              <Footer.Links to="//telostask.app/register">
+              <Footer.Links
+                href="https://telostask.app/login"
+                target="_blank"
+                rel="noopener"
+              >
+                Login
+              </Footer.Links>
+              <Footer.Links
+                href="https://telostask.app/register"
+                target="_blank"
+                rel="noopener"
+              >
                 Register
               </Footer.Links>
             </Footer.SocialsFrame>
 
             <Footer.SocialsFrame>
               <Footer.SectionTitle>Helpful Links</Footer.SectionTitle>
-              <Footer.Links to="//telostask.medium.com/">
+              <Footer.Links
+                href="https://telostask.medium.com"
+                target="_blank"
+                rel="noopener"
+              >
                 Blog
               </Footer.Links>
-              <Footer.Links to="//telostask.app/faq">Faq</Footer.Links>
-              <Footer.Links to="//t.me/Telostask">Contact</Footer.Links>
+              <Footer.Links
+                href="https://telostask.app/faq"
+                target="_blank"
+                rel="noopener"
+              >
+                Faq
+              </Footer.Links>
+              <Footer.Links
+                href="https://t.me/Telostask"
+                target="_blank"
+                rel="noopener"
+              >
+                Contact
+              </Footer.Links>
             </Footer.SocialsFrame>
 
             <Footer.SocialsFrame>
               <Footer.SectionTitle>Information</Footer.SectionTitle>
-              <Footer.Links to="//telostask.io/form/">
+              <Footer.Links
+                href="https://telostask.app/form"
+                target="_blank"
+                rel="noopener"
+              >
                 Buy Tasks
               </Footer.Links>
-              <Footer.Links to="//telostask.io/wp-content/uploads/2021/04/Telos-Task-Whitepaper-2.pdf">
+              <Footer.Links
+                href="https://telostask.io/wp-content/uploads/2021/04/Telos-Task-Whitepaper-2.pdf.app/faq"
+                target="_blank"
+                rel="noopener"
+              >
                 Tasks Paper
               </Footer.Links>
             </Footer.SocialsFrame>
@@ -46,10 +81,30 @@ function FFooter() {
       </Footer.FirstFrame>
       <Footer.SecondFrame>
         <Footer.SocialImageFrame>
-          <Footer.SocialsImg  to={"//https://twitter.com/telostask"}  src={require("../icons/twitter.png")} />
-          <Footer.SocialsImg  to={"//github.com"}  src={require("../icons/github.png")} />
-          <Footer.SocialsImg  to={"//http://telostask.medium.com/"}  src={require("../icons/medium.png")} />
-          <Footer.SocialsImg to={"//http://t.me/Telostask"}  src={require("../icons/telegram.png")} />
+          <Footer.SocialsImg
+            onClick={() =>
+              (window.location.href = "https://twitter.com/telostask")
+            }
+            src={CheckThemeForIcon("githubL", "githubD")}
+          />
+          <Footer.SocialsImg
+            onClick={() =>
+              (window.location.href =
+                "https://github.com/mydappr/telostaskLandingPage")
+            }
+            src={CheckThemeForIcon("githubL", "githubD")}
+          />
+          <Footer.SocialsImg
+            onClick={() =>
+              (window.location.href = "https://telostask.medium.com/")
+            }
+            rel="noopener"
+            src={CheckThemeForIcon("mediumL", "mediumD")}
+          />
+          <Footer.SocialsImg
+            onClick={() => (window.location.href = "https://t.me/Telostask")}
+            src={CheckThemeForIcon("telegramL", "telegramD")}
+          />
         </Footer.SocialImageFrame>
         <Footer.Copyright>
           Copyright © 2020-2021 TelosTask. All Rights Reserved.

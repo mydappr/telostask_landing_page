@@ -7,8 +7,8 @@ export const Frame = styled.section`
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
   max-width: 1300px;
   flex-wrap: wrap;
-  position:relative;
-   
+  position: relative;
+
   margin: 0 auto;
   top: -17px;
   align-items: center;
@@ -21,7 +21,6 @@ export const Frame = styled.section`
   @media (max-width: 600px) {
     flex-direction: column;
     height: 100%;
-  
   }
 `;
 

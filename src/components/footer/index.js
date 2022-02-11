@@ -1,6 +1,5 @@
 import React from "react";
-import { Link as RouterLinks } from "react-router-dom";
-import {
+ import {
   Container,
   FirstFrame,
   Left,
@@ -66,9 +65,9 @@ Footer.SocialsImg = function FooterSocialImage({
   ...restprops
 }) {
   return (
-    <RouterLinks to={to}>
+     
       <SocialsImg {...restprops}>{children}</SocialsImg>  
-    </RouterLinks>
+    
   )
 };
 

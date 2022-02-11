@@ -1,13 +1,12 @@
 import styled from "styled-components";
-import { Link as RouterLinks } from "react-router-dom";
  
-import { CheckerHBg, CheckColor} from '../constants/themeCheckerForBg'
+import { CheckerHBg, CheckColor } from "../constants/themeCheckerForBg";
 
 export const Container = styled.footer`
   margin-top: 5em;
-  
+
   margin-left: 2em;
-  background: ${() => CheckerHBg("Sbbg")} top left/cover  no-repeat;
+  background: ${() => CheckerHBg("Sbbg")} top left/cover no-repeat;
   margin: 0 auto;
 `;
 
@@ -40,27 +39,30 @@ export const Body = styled.p`
   max-width: 350px;
   letter-spacing: 0.03em;
   text-align: start;
-  line-height:1.8;
-   
+  line-height: 1.8;
 `;
 
 export const QuickSection = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left:1em;
+  margin-left: 1em;
 `;
 export const SectionTitle = styled.h3`
-color:${() => CheckColor("#1f3045", "#f0f4fc")}`;
-export const Links = styled(RouterLinks)`
+  color: ${() => CheckColor("#1f3045", "#f0f4fc")};
+`;
+export const Links = styled.a`
   display: block;
   margin-top: 0.7em;
   text-align: start;
   text-decoration: none;
-  link-style:none;
-  color:#6B8299;
-
-  
+  link-style: none;
+  color: #6b8299;
+    
+  &: hover{
+    color: ${() => CheckColor("#1DBF73","#1DBF73")};
+  }
+ 
 `;
 
 export const SecondFrame = styled.div`
@@ -70,9 +72,10 @@ export const SocialsFrame = styled.div`
   margin-right: 2em;
 `;
 export const SocialsImg = styled.img`
-  width: 50%;
-  @media (max-width:900px){
-    width: 70%;
+  width: 20%;
+  cursor:pointer;
+  @media (max-width: 900px) {
+    width: 20%;
   }
 `;
 export const Copyright = styled.p`

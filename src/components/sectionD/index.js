@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as Routerlink } from "react-router-dom";
 import {
   Container,
   FirstFrame,
@@ -9,7 +8,7 @@ import {
   SecondFrame,
   SecondFrameTitle,
   SecondFrameBody,
-  ButtonHolder
+  ButtonHolder,
 } from "./sectionD";
 
 export default function SectionD({ children }) {
@@ -29,7 +28,11 @@ SectionD.ImageFrame = function SectionDImageFrame({ children }) {
 };
 
 SectionD.Image = function SectionDImage({ to, children, ...restprops }) {
-  return <Routerlink to={to}><Image {...restprops} /></Routerlink>;
+  return (
+   
+      <Image {...restprops} />
+ 
+  );
 };
 
 SectionD.SecondFrame = function SectionDSecondFrame({ children }) {

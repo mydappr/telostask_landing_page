@@ -1,5 +1,4 @@
 import React from "react";
-import { Link as RouterLink } from "react-router-dom";
 
 import {
   Container,
@@ -11,6 +10,8 @@ import {
   Textlink,
   ButtonLink,
   Themebtn,
+  HeaderLoading,
+  HeaderLoadingFrame,
 } from "./header";
 
 export default function Header({ children, ...restprops }) {
@@ -21,11 +22,7 @@ Header.Frame = function HeaderFrame({ children }) {
   return <Frame>{children}</Frame>;
 };
 Header.Logo = function HeaderLogo({ to, ...restprops }) {
-  return (
-    <RouterLink to={to}>
-      <Logo {...restprops} />
-    </RouterLink>
-  );
+  return <Logo {...restprops} />;
 };
 
 Header.MiddleFrame = function HeaderMiddleFrame({ children }) {
@@ -40,10 +37,32 @@ Header.Themebtn = function HeaderThemebtn({ ...restprops }) {
   return <Themebtn {...restprops} />;
 };
 
-Header.TextLinks = function HeaderTextlinks({ children, to , ...restprops }) {
-  return <Textlink {...restprops} to={to}>{children}</Textlink>;
+Header.TextLinks = function HeaderTextlinks({ children, ...restprops }) {
+  return <Textlink {...restprops}>{children}</Textlink>;
 };
- 
-Header.ButtonLink = function HeaderButton({ width=true, children, ...restprops }) {
-  return width? <ButtonLink width={width} {...restprops}>{children}</ButtonLink> :children;
+
+Header.ButtonLink = function HeaderButton({
+  dwidth = "true",
+  mwidth = "true",
+  children,
+  ...restprops
+}) {
+  return dwidth && mwidth ? (
+    <ButtonLink dwidth={dwidth} mwidth={mwidth} {...restprops}>
+      {children}
+    </ButtonLink>
+  ) : (
+    children
+  );
+};
+
+Header.HeaderLoading = function HeaderHeaderLoading({
+  width = "true",
+  children,
+}) {
+  return <HeaderLoading width={width} />;
+};
+
+Header.HeaderLoadingFrame = function HeaderHeaderLoadingFrame({ children }) {
+  return <HeaderLoadingFrame>{children}</HeaderLoadingFrame>;
 };

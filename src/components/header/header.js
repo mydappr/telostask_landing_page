@@ -1,4 +1,3 @@
-import { Link as RouterLink } from "react-router-dom";
 import styled from "styled-components";
 import { CheckerButton, CheckColor } from "../constants/themeCheckerForBg";
 
@@ -7,13 +6,12 @@ export const Container = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
-  z-index:1;
+  z-index: 1000;
   width: 100%;
-  margin-bottom:2em;
-  @media (max-width:600px){
-    margin-bottom:8em;
+  margin-bottom: 2em;
+  @media (max-width: 600px) {
+    margin-bottom: 8em;
   }
- 
 `;
 
 export const Frame = styled.h1`
@@ -28,11 +26,11 @@ export const Frame = styled.h1`
 
 export const Logo = styled.img`
   max-width: 100px;
-  
+  cursor: pointer;
 
   @media (min-width: 900px) {
     min-width: 150px;
-    margin-left:1em;
+    margin-left: 1em;
   }
 `;
 
@@ -47,18 +45,21 @@ export const MiddleFrame = styled.div`
   }
 `;
 
-export const Textlink = styled(RouterLink)`
+export const Textlink = styled.a`
   font-size: 1rem;
   text-align: start;
   text-decoration: none;
   link-style: none;
   color: #6b8299;
+  &: hover{
+    color: ${() => CheckColor("#1DBF73","#1DBF73")};
+  }
 `;
 
 export const Themebtn = styled.img`
   width: 35px;
   height: 35px;
-  cursor:pointer;
+  cursor: pointer;
 `;
 
 export const RightFrame = styled.div`
@@ -73,7 +74,7 @@ export const RightFrame = styled.div`
   }
 `;
 
-export const ButtonLink = styled(RouterLink)`
+export const ButtonLink = styled.button`
   background: ${CheckerButton("#fcb41c")};
   padding: 0.5em;
 
@@ -81,10 +82,10 @@ export const ButtonLink = styled(RouterLink)`
   border-color: transparent;
   font-size: 1rem;
   font-weight: bold;
-  width:40%;
+  width:${({ dwidth }) => dwidth}%;
   cursor: pointer;
    @media (max-width:800px){
-     width:${({width}) => (width)}%;
+     width:${({ mwidth }) => mwidth}%;
    }
   
   
@@ -92,12 +93,18 @@ export const ButtonLink = styled(RouterLink)`
   text-decoration: none;
   color: white;
  
-  @media (max-width: 700px) {
-    
-    
-    &: hover{
-      background: ${CheckerButton("#1DBF73")};
-    }
+ 
   }
 
+`;
+
+export const HeaderLoading = styled.div`
+  height: 8px;
+  background-color: ${() => CheckColor("#fcb41c", "#1DBF73")};
+  width: ${({ width }) => width}%;
+`;
+export const HeaderLoadingFrame = styled.div`
+  width: 100%;
+  height: 8px;
+  background: #ccc;
 `;

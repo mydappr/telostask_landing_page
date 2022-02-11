@@ -7,6 +7,7 @@ export const Container = styled.section`
  
   max-width: 1500px;
   margin: 0 auto;
+  margin-bottom:3em;
  
 `;
 export const Bg = styled.div`
@@ -69,6 +70,8 @@ export const Title = styled.h2`
 export const SecondFrameBottom = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 
   @media (max-width: 750px) {
     flex-direction: column;
@@ -77,7 +80,7 @@ export const SecondFrameBottom = styled.div`
 
 export const Card = styled.div`
 background-color:${() => CheckColor("#F2F4F9", "#162438")};
-  margin: 0 1em;
+  margin: 1em 1em;
   width: 35%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 1em;
