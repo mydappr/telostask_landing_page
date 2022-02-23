@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { CheckColor } from "../constants/themeCheckerForBg";
 
 export const Container = styled.div`
+  position: relative;
   cursor: pointer;
   display: flex;
   @media (max-width: 750px) {
@@ -24,13 +25,15 @@ export const NewsInfo = styled.div`
 
   text-align: start;
   top: 50%;
-  width: 91%;
+  width: 100%;
   margin-right: 1em;
   z-index: 1;
   bottom: 0;
+  
+
 
   @media (max-width: 750px) {
-    width: 100%;
+     
   }
 `;
 

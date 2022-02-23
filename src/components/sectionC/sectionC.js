@@ -2,22 +2,16 @@ import styled from "styled-components";
 import { CheckerHBg, CheckColor } from "../constants/themeCheckerForBg";
 
 export const Container = styled.section`
-   
- 
- 
   max-width: 1500px;
   margin: 0 auto;
-  margin-bottom:3em;
- 
+  margin-bottom: 3em;
 `;
 export const Bg = styled.div`
-  background: ${() => CheckerHBg("Sbbg")} top left/cover  no-repeat;
-   
+  background: ${() => CheckerHBg("Sbbg")} top left/cover no-repeat;
+
   max-width: 1500px;
   margin: 0 auto;
- 
 `;
-
 
 export const FirstFrame = styled.div`
   display: flex;
@@ -49,16 +43,13 @@ export const Paragraphs = styled.p`
 `;
 
 export const Video = styled.div`
- height:300px;
- 
+  height: 300px;
+
   @media (min-width: 900px) {
     margin: 0 auto;
     margin-right: 0.5em;
-       border: 8px solid #1DBF73;
-    
+    border: 8px solid #1dbf73;
   }
-    
-
 `;
 
 export const SecondFrame = styled.div``;
@@ -71,7 +62,6 @@ export const SecondFrameBottom = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 
   @media (max-width: 750px) {
     flex-direction: column;
@@ -79,7 +69,7 @@ export const SecondFrameBottom = styled.div`
 `;
 
 export const Card = styled.div`
-background-color:${() => CheckColor("#F2F4F9", "#162438")};
+  background-color: ${() => CheckColor("#F2F4F9", "#162438")};
   margin: 1em 1em;
   width: 35%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

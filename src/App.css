@@ -70,3 +70,34 @@ iframe {
 .newsFrame {
   margin-bottom: 3em;
 }
+.man {
+  margin-top: 5em;
+}
+
+.headertext {
+  font-size: 1.2rem;
+  align-self: center;
+  margin-left:0.5em;
+}
+@media (max-width: 800px) {
+  .headertext {
+    display: none;
+  }
+}
+.LfooterFrame {
+  width: 30%;
+}
+
+.metaMask{
+  color: white;
+  background: -webkit-linear-gradient(left, #e5771b, #753d16);
+  background-size: 200% 200%;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  border-width: 1px;
+  padding: 13px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+ 

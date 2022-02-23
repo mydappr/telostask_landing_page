@@ -34,10 +34,10 @@ function SSectionc() {
           </Sectionc.Left>
 
           <Sectionc.Video>
-          {/* Iframe for youtube vidoe */}
-        
+            {/* Iframe for youtube vidoe */}
+
             <iframe
-              src="https://www.youtube.com/embed/x81-iNilaZY"
+              src="https://www.youtube.com/embed/bE-S8wzSqrg"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -5,7 +5,7 @@ export const Frame = styled.section`
   display: flex;
   justify-content: space-between;
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
-  max-width: 1300px;
+  max-width: 1150px;
   flex-wrap: wrap;
   position: relative;
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
- 
+
 import { CheckerHBg, CheckColor } from "../constants/themeCheckerForBg";
 
 export const Container = styled.footer`
@@ -58,11 +58,10 @@ export const Links = styled.a`
   text-decoration: none;
   link-style: none;
   color: #6b8299;
-    
-  &: hover{
-    color: ${() => CheckColor("#1DBF73","#1DBF73")};
+
+  &: hover {
+    color: ${() => CheckColor("#1DBF73", "#1DBF73")};
   }
- 
 `;
 
 export const SecondFrame = styled.div`
@@ -73,7 +72,7 @@ export const SocialsFrame = styled.div`
 `;
 export const SocialsImg = styled.img`
   width: 20%;
-  cursor:pointer;
+  cursor: pointer;
   @media (max-width: 900px) {
     width: 20%;
   }

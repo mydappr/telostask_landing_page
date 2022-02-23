@@ -23,15 +23,19 @@ export const Frame = styled.h1`
 
   max-width: 1450px;
 `;
-
-export const Logo = styled.img`
-  max-width: 100px;
+export const LogoFrame = styled.div`
+  display: flex;
+  justify-content: space-between;
   cursor: pointer;
-
-  @media (min-width: 900px) {
-    min-width: 150px;
-    margin-left: 1em;
+  margin-right: 1em;
+  justify-content: start;
+`;
+export const Logo = styled.img`
+  width: 50%;
+  @media (max-width:800px){
+    width:100%;
   }
+ 
 `;
 
 export const MiddleFrame = styled.div`
@@ -51,8 +55,8 @@ export const Textlink = styled.a`
   text-decoration: none;
   link-style: none;
   color: #6b8299;
-  &: hover{
-    color: ${() => CheckColor("#1DBF73","#1DBF73")};
+  &: hover {
+    color: ${() => CheckColor("#1DBF73", "#1DBF73")};
   }
 `;
 
@@ -77,7 +81,8 @@ export const RightFrame = styled.div`
 export const ButtonLink = styled.button`
   background: ${CheckerButton("#fcb41c")};
   padding: 0.5em;
-
+  box-shadow: 3px 5px 15px #fcb41c;
+  @media(max-width:800px){  box-shadow: 3px 5px 15px #fcb41c};
   border-radius: 0.7em;
   border-color: transparent;
   font-size: 1rem;

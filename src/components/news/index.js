@@ -1,14 +1,14 @@
 import { Container, NewsInfo, Author, Date, Title, Thumbnail, Headline } from "./news";
 import { Link as RounterLink } from "react-router-dom";
 
-export default function News({ to, src = "true", children, ...restprops }) {
+export default function News({ src = "true", children, ...restprops }) {
   return src ? (
-    <RounterLink to={to}>
+    <a>
    
       <Container src={src} {...restprops}>
         {children}
       </Container>
-    </RounterLink>
+    </a>
   ) : (
     children
   );

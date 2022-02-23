@@ -5,7 +5,7 @@ import {
   Frame,
   MiddleFrame,
   RightFrame,
-  LoginBtn,
+  LogoFrame,
   Logo,
   Textlink,
   ButtonLink,
@@ -20,6 +20,9 @@ export default function Header({ children, ...restprops }) {
 
 Header.Frame = function HeaderFrame({ children }) {
   return <Frame>{children}</Frame>;
+};
+Header.LogoFrame = function HeaderFrame({ children, ...resprops }) {
+  return <LogoFrame {...resprops}>{children}</LogoFrame>;
 };
 Header.Logo = function HeaderLogo({ to, ...restprops }) {
   return <Logo {...restprops} />;

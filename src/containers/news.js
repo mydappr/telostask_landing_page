@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { News } from "../components";
+import {Featured} from './Featured'
 
 function NNews() {
   const [data, setData] = useState([]);
@@ -41,10 +42,44 @@ function NNews() {
 
   return (
     <div className="newsFrame">
+      <News.Headline>TelosTask In The News</News.Headline>
+
+      <Carousel
+        swipeable={true}
+        draggable={true}
+        showDots={true}
+        className="sliderFrame"
+        responsive={responsive}
+      >
+        {Featured.map((post, index) => {
+          if (
+            post.thumbnail.includes(".png") ||
+            post.thumbnail.includes(".jpeg")
+          ) {
+            return (
+              <News
+                key={index}
+                onClick={() => (window.location.href = `${post.link}`)}
+              >
+                <News.Thumbnail src={post.thumbnail} />
+                <News.NewsInfo>
+                  <News.Author>{post.Author}</News.Author>
+                  <News.Date>{post.Date}</News.Date>
+                  <News.Title>{post.Title}</News.Title>
+                </News.NewsInfo>
+              </News>
+            );
+          } else {
+            console.log(post);
+            return null;
+          }
+        })}
+      </Carousel>
+
       <News.Headline>Recent Articles</News.Headline>
 
       <Carousel
-        swipeable={"true"}
+        swipeable={true}
         draggable={false}
         showDots={true}
         className="sliderFrame"
@@ -56,7 +91,10 @@ function NNews() {
             post.thumbnail.includes(".jpeg")
           ) {
             return (
-              <News key={post.pubDate} to={post.link.replace("https://", "//")}>
+              <News
+                key={post.pubDate}
+                onClick={() => (window.location.href = `${post.link}`)}
+              >
                 <News.Thumbnail src={post.thumbnail} />
                 <News.NewsInfo>
                   <News.Author>{post.author}</News.Author>
@@ -66,64 +104,10 @@ function NNews() {
               </News>
             );
           } else {
-            console.log(post)
+            console.log(post);
             return null;
-           
           }
         })}
-
-        {/* <News
-          to={
-            "//telostask.medium.com/how-to-fund-your-telostask-wallet-to-outsource-tasks-3403567c1e8a"
-          }
-        >
-          <News.Thumbnail
-            src={
-              "https://miro.medium.com/max/1400/1*vnBEBPfUXFhzahr0N9iyDA.png"
-            }
-          />
-          <News.NewsInfo>
-            <News.Author>TelosTask</News.Author>
-            <News.Date>29th December 2020</News.Date>
-            <News.Title>
-              A new platform to complete your online tasks
-            </News.Title>
-          </News.NewsInfo>
-        </News>
-
-        <News
-          to={
-            "//telostask.medium.com/how-to-outsource-tasks-on-telostask-8063e6d4b0f3"
-          }
-        >
-          <News.Thumbnail
-            src={"https://miro.medium.com/max/875/1*9xgf96bPQKAv8ezMHmCo1Q.png"}
-          />
-          <News.NewsInfo>
-            <News.Author>TelosTask</News.Author>
-            <News.Date>29th December 2020</News.Date>
-            <News.Title>
-              A new platform to complete your online tasks
-            </News.Title>
-          </News.NewsInfo>
-        </News>
-
-        <News
-          to={
-            "//telostask.medium.com/getting-started-and-earning-on-telostask-c8ceda1d62b"
-          }
-        >
-          <News.Thumbnail
-            src={"https://miro.medium.com/max/875/1*v_fVxd0LuYOFPOK4npnHqw.png"}
-          />
-          <News.NewsInfo>
-            <News.Author>TelosTask</News.Author>
-            <News.Date>29th December 2020</News.Date>
-            <News.Title>
-              A new platform to complete your online tasks
-            </News.Title>
-          </News.NewsInfo>
-        </News> */}
       </Carousel>
     </div>
   );

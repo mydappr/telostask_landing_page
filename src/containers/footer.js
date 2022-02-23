@@ -1,5 +1,5 @@
 import React from "react";
-import { Footer } from "../components";
+import { Footer, Header } from "../components";
 import CheckThemeForIcon from "../lib/checkThemeForIcon";
 
 function FFooter() {
@@ -7,7 +7,14 @@ function FFooter() {
     <Footer>
       <Footer.FirstFrame>
         <Footer.Left>
-          <Footer.Logo src={require("../icons/logo.png")} />
+          <Header.LogoFrame className="LfooterFrame" >
+            <Header.Logo 
+              onClick={() => (window.location.href = "https://telostask.app")}
+              src={require("../icons/logo.png")}
+              alts="telostask logo"
+            />{" "}
+            <div className="headertext">TelosTask</div>
+          </Header.LogoFrame>
           <Footer.Body>
             The Telostask platoform is a platoform that rewards
             users/freelancers for completing micro or medium tasks or to clients
@@ -21,7 +28,7 @@ function FFooter() {
               <Footer.Links
                 href="https://telostask.app/login"
                 target="_blank"
-                rel="noopener"
+                rel="noopener" 
               >
                 Login
               </Footer.Links>

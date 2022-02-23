@@ -8,7 +8,6 @@ import FFooter from "./containers/footer";
 import { ThemeProvider } from "styled-components";
 import { BrowserRouter } from "react-router-dom";
 import { GlobalStyles, darkTheme, lightTheme } from "./containers/theme";
-
 import { useState } from "react";
 import { ThemeContext } from "./lib/context";
 import NNews from "./containers/news";

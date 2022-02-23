@@ -1,10 +1,13 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useState,useEffect } from "react";
 import { Header } from "../components";
-import { Routes, Route } from "react-router-dom";
 import { ThemeContext } from "../lib/context";
+ 
+ 
+
 function HHeader() {
   const { theme, setTheme } = useContext(ThemeContext);
   const [width, setWidth] = useState(0);
+ 
 
   // Change theme handler
   const themeToggler = () => {
@@ -28,11 +31,14 @@ function HHeader() {
   return (
     <Header>
       <Header.Frame>
-        <Header.Logo
-          onClick={() => (window.location.href = "https://telostask.app")}
-          src={require("../icons/logo.png")}
-          alts="telostask logo"
-        />
+        <Header.LogoFrame>
+          <Header.Logo
+            onClick={() => (window.location.href = "https://telostask.app")}
+            src={require("../icons/logo.png")}
+            alts="telostask logo"
+          />{" "}
+          <div className="headertext">TelosTask</div>
+        </Header.LogoFrame>
 
         <Header.MiddleFrame>
           <Header.TextLinks
@@ -53,6 +59,7 @@ function HHeader() {
             ITO
           </Header.TextLinks>
         </Header.MiddleFrame>
+ 
 
         <Header.RightFrame>
           <Header.TextLinks
