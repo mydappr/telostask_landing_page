@@ -93,7 +93,7 @@ export const CardTop = styled.div`
 
 export const TaskImg = styled.img`
   margin: 1em;
-  width: 10%;
+  width: 50%;
 `;
 
 export const TypeTitle = styled.h2`

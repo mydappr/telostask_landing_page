@@ -25,7 +25,7 @@ export const LeftFrame = styled.div`
   }
 `;
 
-export const SectionAImg = styled.img`
+export const SectionAImg = styled.div`
   height: 30%;
   width: 40%;
   @media (max-width: 800px) {

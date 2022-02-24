@@ -20,6 +20,6 @@ SectionA.Body = function SectionABody({ children }) {
   return <Body>{children}</Body>;
 };
 
-SectionA.SectionAImg = function  SSectionAImg({ children, ...restprops }) {
+SectionA.SectionAImg = function  SSectionAImg({...restprops }) {
   return <SectionAImg {...restprops} />;
 };

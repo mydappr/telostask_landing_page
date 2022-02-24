@@ -59,17 +59,22 @@ iframe {
   max-width: 1400px;
   width: 70%;
   margin: 0 auto;
+  margin-bottom: 7em;
+  z-index: 1;
 }
 
 @media (max-width: 750px) {
   .sliderFrame {
     width: 90%;
+    margin-bottom: 5em;
   }
 }
 
 .newsFrame {
   margin-bottom: 3em;
 }
+
+ 
 .man {
   margin-top: 5em;
 }

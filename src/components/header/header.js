@@ -74,7 +74,7 @@ export const RightFrame = styled.div`
   align-items: center;
 
   @media (max-width: 700px) {
-    min-width: 200px;
+    min-width: 250px;
   }
 `;
 

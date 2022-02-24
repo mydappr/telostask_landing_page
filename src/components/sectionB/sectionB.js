@@ -32,7 +32,7 @@ export const Services = styled.div`
   }
 `;
 
-export const ServiceImg = styled.img``;
+export const ServiceImg = styled.div``;
 
 export const Title = styled.h2`
   font-weight: 600;

@@ -13,7 +13,7 @@ SectionB.Services = function SectionBServices({ children }) {
   return <Services>{children}</Services>;
 };
 
-SectionB.ServiceImg = function SectionBServiceImg({ children, ...restprops }) {
+SectionB.ServiceImg = function SectionBServiceImg({ ...restprops }) {
   return <ServiceImg {...restprops} />;
 };
 SectionB.Title = function SectionBTitle({ children }) {

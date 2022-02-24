@@ -92,25 +92,25 @@ function FFooter() {
             onClick={() =>
               (window.location.href = "https://twitter.com/telostask")
             }
-            src={CheckThemeForIcon("githubL", "githubD")}
+            src={CheckThemeForIcon("githubL.png", "githubD.png")}
           />
           <Footer.SocialsImg
             onClick={() =>
               (window.location.href =
                 "https://github.com/mydappr/telostaskLandingPage")
             }
-            src={CheckThemeForIcon("githubL", "githubD")}
+            src={CheckThemeForIcon("githubL.png", "githubD.png")}
           />
           <Footer.SocialsImg
             onClick={() =>
               (window.location.href = "https://telostask.medium.com/")
             }
             rel="noopener"
-            src={CheckThemeForIcon("mediumL", "mediumD")}
+            src={CheckThemeForIcon("mediumL.png", "mediumD.png")}
           />
           <Footer.SocialsImg
             onClick={() => (window.location.href = "https://t.me/Telostask")}
-            src={CheckThemeForIcon("telegramL", "telegramD")}
+            src={CheckThemeForIcon("telegramL.png", "telegramD.png")}
           />
         </Footer.SocialImageFrame>
         <Footer.Copyright>

@@ -6,8 +6,8 @@ function CheckThemeForIcon(picL, picD) {
   const { theme } = useContext(ThemeContext);
 
   return theme === "light"
-    ? require(`../icons/${picL}.png`)
-    : require(`../icons/${picD}.png`);
+    ? require(`../icons/${picL}`)
+    : require(`../icons/${picD}`);
 }
 
 export default CheckThemeForIcon;

@@ -1,8 +1,24 @@
 import SectionA from "../components/sectionA";
 import Header from "../components/header";
 import CheckThemeForIcon from "../lib/checkThemeForIcon";
+import lottie from "lottie-web";
+import heroD from "../icons/heroD.json";
+import heroL from "../icons/heroL.json";
+import { useContext, useEffect } from "react";
+import { ThemeContext } from "../lib/context";
 
 function SSectionA() {
+  const { theme } = useContext(ThemeContext);
+  useEffect(() => {
+   const anim=   lottie.loadAnimation({
+      container: document.querySelector("#hero"),
+      animationData: theme === "light" ? heroL : heroD,
+    });
+    return () => anim.destroy()
+
+    
+  },[theme]);
+
   return (
     <SectionA>
       <SectionA.LeftFrame>
@@ -21,9 +37,7 @@ function SSectionA() {
         </SectionA.Btnframe>
       </SectionA.LeftFrame>
 
-      <SectionA.SectionAImg
-        src={CheckThemeForIcon("heroimageL", "heroimageD")}
-      />
+      <SectionA.SectionAImg id="hero" />
     </SectionA>
   );
 }

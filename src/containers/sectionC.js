@@ -50,7 +50,7 @@ function SSectionc() {
           <Sectionc.SecondFrameBottom>
             <Sectionc.Card>
               <Sectionc.CardTop>
-                <Sectionc.TaskImg src={CheckThemeForIcon("microL", "microD")} />
+                <Sectionc.TaskImg src={require("../icons/micro.png")} />
                 <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
@@ -61,7 +61,29 @@ function SSectionc() {
             </Sectionc.Card>
             <Sectionc.Card>
               <Sectionc.CardTop>
-                <Sectionc.TaskImg src={CheckThemeForIcon("macroL", "macroD")} />
+                <Sectionc.TaskImg src={require("../icons/macro.png")} />
+                <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
+              </Sectionc.CardTop>
+              <Sectionc.CardBody>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content.
+              </Sectionc.CardBody>
+            </Sectionc.Card>
+            <Sectionc.Card>
+              <Sectionc.CardTop>
+                <Sectionc.TaskImg src={require("../icons/taskclap.png")} />
+                <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
+              </Sectionc.CardTop>
+              <Sectionc.CardBody>
+                In publishing and graphic design, Lorem ipsum is a placeholder
+                text commonly used to demonstrate the visual form of a document
+                or a typeface without relying on meaningful content.
+              </Sectionc.CardBody>
+            </Sectionc.Card>
+            <Sectionc.Card>
+              <Sectionc.CardTop>
+                <Sectionc.TaskImg src={require("../icons/taskdrop.png")} />
                 <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
