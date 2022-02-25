@@ -4,9 +4,8 @@ import { ThemeContext } from "../lib/context";
 import Modal from "./Modal";
 
 function HHeader() {
-  const { theme, setTheme } = useContext(ThemeContext);
+  const { theme, setTheme, modal, setModal } = useContext(ThemeContext);
   const [width, setWidth] = useState(0);
-  const { modal, setModal } = useContext(ThemeContext);
 
   // Change theme handler
   const themeToggler = () => {
@@ -26,7 +25,14 @@ function HHeader() {
   };
 
   window.onscroll = () => getLoadingWidth();
- 
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.document.querySelector("#win").addEventListener("click", () => {
+        setModal(!modal);
+      });
+    }, 1000);
+  }, []);
   return (
     <Header>
       <Header.Frame>
@@ -59,14 +65,13 @@ function HHeader() {
           </Header.TextLinks>
         </Header.MiddleFrame>
 
-        <Header.RightFrame>
-          <Header.TextLinks 
-          
-          onMouseEnter={() => setModal(true)}
-          onClick={() => setModal(!modal)}
-          
-          
-          >Login</Header.TextLinks>
+        <Header.RightFrame id="win">
+          <Header.TextLinks
+            
+            onPointerEnter={() => setModal(!modal)}
+          >
+            Login
+          </Header.TextLinks>
 
           <Header.ButtonLink
             dwidth={48}
@@ -80,6 +85,7 @@ function HHeader() {
           />
         </Header.RightFrame>
       </Header.Frame>
+      {modal && <Modal />}
       <Header.HeaderLoadingFrame>
         <Header.HeaderLoading width={width} />
       </Header.HeaderLoadingFrame>

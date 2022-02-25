@@ -22,6 +22,7 @@ function App() {
 
   // login modal
   const [modal, setModal] = useState(false);
+  console.log('rendered')
 
   localStorage.setItem("userThemeChoice", theme);
   return (

@@ -6,10 +6,10 @@ import heroD from "../icons/heroD.json";
 import heroL from "../icons/heroL.json";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../lib/context";
-import Modal from "./Modal";
+
 
 function SSectionA() {
-  const { theme, modal } = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   // define sectionA animation
   useEffect(() => {
@@ -37,9 +37,7 @@ function SSectionA() {
           </Header.ButtonLink>
         </SectionA.Btnframe>
       </SectionA.LeftFrame>
-
       <SectionA.SectionAImg id="hero" />
-      {modal && <Modal />}
     </SectionA>
   );
 }
