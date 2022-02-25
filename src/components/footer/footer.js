@@ -3,10 +3,9 @@ import styled from "styled-components";
 import { CheckerHBg, CheckColor } from "../constants/themeCheckerForBg";
 
 export const Container = styled.footer`
-  margin-top: 5em;
-
-  margin-left: 2em;
+  
   background: ${() => CheckerHBg("Sbbg")} top left/cover no-repeat;
+  
   margin: 0 auto;
 `;
 

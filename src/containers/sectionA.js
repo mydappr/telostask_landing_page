@@ -6,18 +6,19 @@ import heroD from "../icons/heroD.json";
 import heroL from "../icons/heroL.json";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../lib/context";
+import Modal from "./Modal";
 
 function SSectionA() {
-  const { theme } = useContext(ThemeContext);
+  const { theme, modal } = useContext(ThemeContext);
+
+  // define sectionA animation
   useEffect(() => {
-   const anim=   lottie.loadAnimation({
+    const anim = lottie.loadAnimation({
       container: document.querySelector("#hero"),
       animationData: theme === "light" ? heroL : heroD,
     });
-    return () => anim.destroy()
-
-    
-  },[theme]);
+    return () => anim.destroy();
+  }, [theme]);
 
   return (
     <SectionA>
@@ -38,6 +39,7 @@ function SSectionA() {
       </SectionA.LeftFrame>
 
       <SectionA.SectionAImg id="hero" />
+      {modal && <Modal />}
     </SectionA>
   );
 }

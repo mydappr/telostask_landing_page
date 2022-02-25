@@ -8,6 +8,8 @@ export const Container = styled.div`
   top: 0;
   z-index: 1000;
   width: 100%;
+  
+
   margin-bottom: 2em;
   @media (max-width: 600px) {
     margin-bottom: 8em;
@@ -21,7 +23,9 @@ export const Frame = styled.h1`
   justify-content: space-between;
   align-items: center;
 
-  max-width: 1450px;
+  width:98%;
+  
+   
 `;
 export const LogoFrame = styled.div`
   display: flex;
@@ -32,10 +36,9 @@ export const LogoFrame = styled.div`
 `;
 export const Logo = styled.img`
   width: 50%;
-  @media (max-width:800px){
-    width:100%;
+  @media (max-width: 800px) {
+    width: 100%;
   }
- 
 `;
 
 export const MiddleFrame = styled.div`
@@ -43,7 +46,6 @@ export const MiddleFrame = styled.div`
   width: 40%;
   max-width: 300px;
   justify-content: space-between;
-
   @media (max-width: 900px) {
     display: none;
   }
@@ -51,6 +53,7 @@ export const MiddleFrame = styled.div`
 
 export const Textlink = styled.a`
   font-size: 1rem;
+  cursor:pointer;
   text-align: start;
   text-decoration: none;
   link-style: none;
@@ -72,7 +75,6 @@ export const RightFrame = styled.div`
   max-width: 300px;
   justify-content: space-between;
   align-items: center;
-
   @media (max-width: 700px) {
     min-width: 250px;
   }
@@ -98,8 +100,13 @@ export const ButtonLink = styled.button`
   text-decoration: none;
   color: white;
  
- 
+
   }
+
+  transition:  0.4s ease-in-out;
+   &: hover{
+    transform: scale(1.1);
+   }
 
 `;
 

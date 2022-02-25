@@ -33,23 +33,22 @@ export const SectionAImg = styled.div`
   }
 `;
 export const Btnframe = styled.div`
-margin-bottom: 2em;
- 
-  
-@media (max-width: 800px) {
-  margin: 0 auto;
-  max-width: 50%;
-}
-@media (max-width: 600px) {
-  max-width: 100%;
-  text-align: center;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 2em;
-  margin-left: 0;
-  align-self: center;
-}
+  margin-bottom: 2em;
+
+  @media (max-width: 800px) {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  @media (max-width: 600px) {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 0;
+    align-self: center;
+  }
 `;
 export const Title = styled.h1`
   font-weight: 700;

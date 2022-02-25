@@ -11,12 +11,14 @@ import { ThemeContext } from "../lib/context";
 
 function SSectionB() {
   const { theme } = useContext(ThemeContext);
+
+  // define sectionB animation
   useEffect(() => {
     const anim1 = Lottie.loadAnimation({
       container: document.querySelector("#image1"),
       animationData: theme === "light" ? image1L : image1D,
     });
-
+  
     const anim2 = Lottie.loadAnimation({
       container: document.querySelector("#image2"),
       animationData: theme === "light" ? image2L : image2D,

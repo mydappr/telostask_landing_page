@@ -1,13 +1,12 @@
-import React, { useContext, useState,useEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { Header } from "../components";
 import { ThemeContext } from "../lib/context";
- 
- 
+import Modal from "./Modal";
 
 function HHeader() {
   const { theme, setTheme } = useContext(ThemeContext);
   const [width, setWidth] = useState(0);
- 
+  const { modal, setModal } = useContext(ThemeContext);
 
   // Change theme handler
   const themeToggler = () => {
@@ -27,7 +26,7 @@ function HHeader() {
   };
 
   window.onscroll = () => getLoadingWidth();
-
+ 
   return (
     <Header>
       <Header.Frame>
@@ -59,18 +58,18 @@ function HHeader() {
             ITO
           </Header.TextLinks>
         </Header.MiddleFrame>
- 
 
         <Header.RightFrame>
-          <Header.TextLinks
-            href="https://telostask.app/login"
-            target="_blank"
-            rel="noopener"
-          >
-            Login
-          </Header.TextLinks>
+          <Header.TextLinks 
+          
+          onMouseEnter={() => setModal(true)}
+          onClick={() => setModal(!modal)}
+          
+          
+          >Login</Header.TextLinks>
+
           <Header.ButtonLink
-            dwidth={55}
+            dwidth={48}
             onClick={() => (window.location.href = "https://telostask.app")}
           >
             Sign Up

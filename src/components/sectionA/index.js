@@ -1,8 +1,8 @@
 import React from "react";
 import { Frame, LeftFrame, Title, Body,  SectionAImg, Btnframe } from "./setionA";
 
-export default function SectionA({ children }) {
-  return <Frame>{children}</Frame>;
+export default function SectionA({  children, ...restprops }) {
+  return <Frame {...restprops}>{children}</Frame>;
 }
 
 SectionA.Btnframe  = function sectionABtnframe({children}){
