@@ -54,42 +54,46 @@ function SSectionc() {
                 <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content.
+                This type of task ranges from social media engagements, simple
+                assignments, or Google searches and does not require any special
+                talents or an expert to participate but yet, users receives
+                incentives after completing the said work. It is basically for
+                non professionals who are called micro freelancers.
               </Sectionc.CardBody>
             </Sectionc.Card>
             <Sectionc.Card>
               <Sectionc.CardTop>
                 <Sectionc.TaskImg src={require("../icons/macro.png")} />
-                <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
+                <Sectionc.TypeTitle>Macro Task</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content.
+                This type of task deals with longer-term content creation,
+                development, graphic design, video production, and other
+                advanced gigs. This requires knowledge, talent and experience in
+                order to partake and immediately receive incentives once clients
+                (Task Givers) marks a project successful.
               </Sectionc.CardBody>
             </Sectionc.Card>
             <Sectionc.Card>
               <Sectionc.CardTop>
                 <Sectionc.TaskImg src={require("../icons/taskclap.png")} />
-                <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
+                <Sectionc.TypeTitle>Thunderclap "Taskclap"</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content.
+                This feature allows you use the crowd force of TelosTask users
+                who might be interested on your task listing to post all at once
+                on your preferred social platform.
               </Sectionc.CardBody>
             </Sectionc.Card>
             <Sectionc.Card>
               <Sectionc.CardTop>
                 <Sectionc.TaskImg src={require("../icons/taskdrop.png")} />
-                <Sectionc.TypeTitle>Micro Task</Sectionc.TypeTitle>
+                <Sectionc.TypeTitle>Taskdrop</Sectionc.TypeTitle>
               </Sectionc.CardTop>
               <Sectionc.CardBody>
-                In publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content.
+                A TelosTask place for free tokens, Taskdrop is the official home
+                of Airdrops; participate on projects minor tasks and submit your
+                preferred wallet to get their token drops.
               </Sectionc.CardBody>
             </Sectionc.Card>
           </Sectionc.SecondFrameBottom>
