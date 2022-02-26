@@ -1,10 +1,11 @@
 export const Featured = [
   {
-    Author: "Angel Andreychev",
-    thumbnail: "https://images.hive.blog/DQmdCEiKNhc97jevUexdEHY6APEzvFCaCZJpqwFZJPR7LaU/image.png",
-    Date: "October 28, 2020",
-    Title: "Telos Task Launches In Beta, Announces Token Pre-Sale",
-    link: "https://chainbulletin.com/telos-task-launches-in-beta-announces-token-pre-sale/",
+    Author: "@leviet7490",
+    thumbnail:
+      "https://images.hive.blog/DQmUrxd3knH7oqsh1dyaHuXpLcMT12SoPkiriv2cFoK9Bzd/image.png",
+    Date: "December 12, 2020",
+    Title: "All You Need To Know About The TelosTask Project",
+    link: "https://leofinance.io/@leviet7490/all-you-need-to-know-about-the-telostask-project",
   },
   {
     Author: "MARIE HUILLET",
@@ -15,11 +16,10 @@ export const Featured = [
     link: "https://cointelegraph.com/news/telos-launches-new-gig-economy-platform-on-the-blockchain",
   },
   {
-    Author: "Ellsa Milana",
-    thumbnail:
-      "https://cdn.publish0x.com/prod/fs/images/6b8f1b5b5ba4a1dff46872d662fca1e2eed087c7af7ea7d435db9fafc53471df.jpeg",
-    Date: " 27 Oct 2020",
-    Title: "You'll get 50 Task ($50) for completing all tasks ",
-    link: "https://www.publish0x.com/make-money-online-just-got-real/telos-task-airdrop-youll-get-50-task-dollar-50-for-completin-xejwewe",
+    Author: "Staff Writer",
+    thumbnail: "https://images.hive.blog/DQmWA3StFQk2Ct6K43qoScQg3mVEZzHeW49khcMRkurF7CL/image.png",
+    Date: "7th Feb 2022",
+    Title: "Blockchain platform Telos launches gig economy tool",
+    link: "https://www.banklesstimes.com/news/2020/10/28/blockchain-platform-telos-launches-gig-economy-tool/",
   },
 ];

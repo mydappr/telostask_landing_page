@@ -20,7 +20,7 @@ function Modal() {
           Login
         </button>
       </div>
-      <h2>Comming Soon!</h2>
+      <h2>Coming Soon!</h2>
       <div>
         <button
           

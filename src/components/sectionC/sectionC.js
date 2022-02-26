@@ -98,6 +98,7 @@ export const TaskImg = styled.img`
 
 export const TypeTitle = styled.h2`
   align-self: center;
+  text-align:start;
   font-size: 1.1rem;
   font-weight: 600;
   color: ${() => CheckColor("#1f3045", "#f0f4fc")};

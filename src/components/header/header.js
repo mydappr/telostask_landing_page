@@ -8,6 +8,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 1000;
   width: 100%;
+  margin 0 auto;
   
 
   margin-bottom: 2em;
@@ -73,10 +74,12 @@ export const RightFrame = styled.div`
   display: flex;
   width: 40%;
   max-width: 300px;
+ 
   justify-content: space-between;
   align-items: center;
   @media (max-width: 700px) {
     min-width: 250px;
+    margin-right:0.2em;
   }
 `;
 

@@ -26,13 +26,13 @@ function HHeader() {
 
   window.onscroll = () => getLoadingWidth();
 
-  useEffect(() => {
-    setTimeout(() => {
-      window.document.querySelector("#win").addEventListener("click", () => {
-        setModal(!modal);
-      });
-    }, 1000);
-  }, []);
+  //  adding click listener to login button and fliping the modal value
+  const el = document.querySelector("#login");
+  el &&
+    el.addEventListener("click", () => {
+      setModal(!modal);
+    });
+
   return (
     <Header>
       <Header.Frame>
@@ -65,11 +65,8 @@ function HHeader() {
           </Header.TextLinks>
         </Header.MiddleFrame>
 
-        <Header.RightFrame id="win">
-          <Header.TextLinks
-            
-            onPointerEnter={() => setModal(!modal)}
-          >
+        <Header.RightFrame id="login">
+          <Header.TextLinks onPointerEnter={() => setModal(!modal)}>
             Login
           </Header.TextLinks>
 
