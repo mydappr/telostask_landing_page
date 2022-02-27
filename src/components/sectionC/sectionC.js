@@ -47,7 +47,7 @@ export const Video = styled.div`
 
   @media (min-width: 900px) {
     margin: 0 auto;
-    margin-right: 0.5em;
+    margin-right: 2em;
     border: 8px solid #1dbf73;
   }
 `;
@@ -63,27 +63,23 @@ export const SecondFrameBottom = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
 
-  @media (max-width: 750px) {
+  @media (max-width: 900px) {
     flex-direction: column;
   }
 `;
 
 export const Card = styled.div`
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
-  margin: 1em 1em;
-  width: 35%;
+  margin: 1em auto;
+  width: 40%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 1em;
-  @media (max-width: 750px) {
-    max-width: 80%;
-    width: 100%;
-    margin: 0 auto;
-    flex-direction: column;
-    margin-top: 2em;
+  @media (max-width: 900px) {
+    width: 90%;
   }
 
-  @media (max-width: 500px) {
-    max-width: 100%;
+  @media (max-width: 600px) {
+    width: 100%;
   }
 `;
 
@@ -98,7 +94,7 @@ export const TaskImg = styled.img`
 
 export const TypeTitle = styled.h2`
   align-self: center;
-  text-align:start;
+  text-align: start;
   font-size: 1.1rem;
   font-weight: 600;
   color: ${() => CheckColor("#1f3045", "#f0f4fc")};
