@@ -1,22 +1,21 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
 import { CheckColor } from "../constants/themeCheckerForBg";
 
 export const Frame = styled.section`
   display: flex;
   justify-content: space-between;
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
-  max-width: 1150px;
+  max-width: 1200px;
   flex-wrap: wrap;
   position: relative;
 
   margin: 0 auto;
-  top: -17px;
+
   align-items: center;
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.2);
   width: 100%;
-
-  height: 100%;
+  min-height: 550px;
 
   @media (max-width: 600px) {
     flex-direction: column;
@@ -26,9 +25,15 @@ export const Frame = styled.section`
 
 export const Bg = styled.img``;
 
+ 
+
 export const Services = styled.div`
   @media (min-width: 600px) {
     max-width: 48%;
+    transition:  1s ease-in-out;
+    &: hover{
+     transform: scale(1.1);
+    }
   }
 `;
 

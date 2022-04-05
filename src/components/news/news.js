@@ -13,6 +13,11 @@ export const Container = styled.div`
   flex-direction: column;
   margin: 0 1em 0 1em;
   height: 200px;
+
+  transition: 1s ease;
+  &: hover{
+    transform: scale(1.1)
+  }
 `;
 export const Thumbnail = styled.img`
   width: 100%;

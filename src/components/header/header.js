@@ -45,7 +45,7 @@ export const Logo = styled.img`
 export const MiddleFrame = styled.div`
   display: flex;
   width: 40%;
-  max-width: 300px;
+  max-width: 500px;
   justify-content: space-between;
   @media (max-width: 900px) {
     display: none;

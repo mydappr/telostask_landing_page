@@ -7,8 +7,8 @@ function FFooter() {
     <Footer>
       <Footer.FirstFrame>
         <Footer.Left>
-          <Header.LogoFrame className="LfooterFrame" >
-            <Header.Logo 
+          <Header.LogoFrame className="LfooterFrame">
+            <Header.Logo
               onClick={() => (window.location.href = "https://telostask.app")}
               src={require("../icons/logo.png")}
               alts="telostask logo"
@@ -16,9 +16,9 @@ function FFooter() {
             <div className="headertext">TelosTask</div>
           </Header.LogoFrame>
           <Footer.Body>
-            The Telostask platoform is a platoform that rewards
-            users/freelancers for completing micro or medium tasks or to clients
-            looking to outsource micro or medium tasks.
+            The Telostask platform allows clients outsource micro and macro
+            tasks to the gig workers in a task market place, rewarding
+            users/freelancers for completing micro or macro tasks
           </Footer.Body>
         </Footer.Left>
         <Footer.Right>
@@ -28,7 +28,7 @@ function FFooter() {
               <Footer.Links
                 href="https://telostask.app/login"
                 target="_blank"
-                rel="noopener" 
+                rel="noopener"
               >
                 Login
               </Footer.Links>
@@ -92,7 +92,7 @@ function FFooter() {
             onClick={() =>
               (window.location.href = "https://twitter.com/telostask")
             }
-            src={CheckThemeForIcon("githubL.png", "githubD.png")}
+            src={CheckThemeForIcon("twitterL.png", "twitterD.png")}
           />
           <Footer.SocialsImg
             onClick={() =>

@@ -24,10 +24,15 @@ export const ImageFrame = styled.div`
 `;
 
 export const Image = styled.img`
-  width: 20%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
   padding: 1em;
   cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 1s ease;
+  &: hover{
+    transform: scale(1.1);
+   
+  }
 `;
 
 export const SecondFrame = styled.div`

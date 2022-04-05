@@ -9,7 +9,7 @@ function NNews() {
 
   useEffect(() => {
     const url =
-      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@telostask";
+      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Telostask";
 
     fetch(url)
       .then((res) => res.json())
@@ -61,7 +61,7 @@ function NNews() {
                 key={index}
                 onClick={() => (window.location.href = `${post.link}`)}
               >
-                <News.Thumbnail src={post.thumbnail} />
+                <News.Thumbnail src={post?.thumbnail} />
                 <News.NewsInfo>
                   <News.Author>{post.Author}</News.Author>
                   <News.Date>{post.Date}</News.Date>

@@ -42,7 +42,7 @@ function HHeader() {
             src={require("../icons/logo.png")}
             alts="telostask logo"
           />{" "}
-          <div className="headertext">TelosTask</div>
+          <div className="headertext">TelosTask </div>
         </Header.LogoFrame>
 
         <Header.MiddleFrame>
@@ -50,18 +50,23 @@ function HHeader() {
             href="https://telostask.app/login"
             target="_blank"
             rel="noopener"
+            className='commingSoonP'
           >
             Browse Task
+            {/* <span className="commingSoon">Coming soon!</span> */}
           </Header.TextLinks>
           <Header.TextLinks
             href="https://telostask.io/wp-content/uploads/2021/04/Telos-Task-Whitepaper-2.pdf"
             target="_blank"
             rel="noopener"
           >
-            TaskPapper
+            TaskPaper
           </Header.TextLinks>
-          <Header.TextLinks href=" " target="_blank" rel="noopener">
-            ITO
+          <Header.TextLinks href="https://docs.google.com/presentation/d/1RzQHW-9KR8mDFRNonnuSmxK2y37f0i-12PDA61uvo_4/edit#slide=id.p1" target="_blank" rel="noopener">
+            PitchDeck
+          </Header.TextLinks>
+          <Header.TextLinks href="https://telostask.io" target="_blank" rel="noopener">
+            Info
           </Header.TextLinks>
         </Header.MiddleFrame>
 

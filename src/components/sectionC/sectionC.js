@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { CheckerHBg, CheckColor } from "../constants/themeCheckerForBg";
+import styled, { keyframes } from "styled-components";
 
 export const Container = styled.section`
   max-width: 1500px;
@@ -63,24 +63,28 @@ export const SecondFrameBottom = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
 
-  @media (max-width: 900px) {
+  @media (max-width: 850px) {
     flex-direction: column;
   }
 `;
+ 
+ 
 
 export const Card = styled.div`
   background-color: ${() => CheckColor("#F2F4F9", "#162438")};
   margin: 1em auto;
-  width: 40%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 40%; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 1em;
   @media (max-width: 900px) {
-    width: 90%;
+    width:100%;
   }
-
-  @media (max-width: 600px) {
-    width: 100%;
+  transition: 1s    ease;
+  &:hover {
+    transform: scale(1.1);
+    
   }
+ 
 `;
 
 export const CardTop = styled.div`
