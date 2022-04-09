@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ttaskLandingpage/static/css/main.1c7745e0.css",
+    "main.js": "/ttaskLandingpage/static/js/main.350709b4.js",
+    "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
+    "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
+    "static/media/macro.png": "/ttaskLandingpage/static/media/macro.3d34d5ce946f2d1d4da0.png",
+    "static/media/taskdrop.png": "/ttaskLandingpage/static/media/taskdrop.a25d63cd789d957f982e.png",
+    "static/media/micro.png": "/ttaskLandingpage/static/media/micro.554b47d4fd9f0900c4a7.png",
+    "static/media/WalletConnect.png": "/ttaskLandingpage/static/media/WalletConnect.13798276a43e02957131.png",
+    "static/media/metamask.png": "/ttaskLandingpage/static/media/metamask.900b5bef784601bc0be8.png",
+    "static/media/heroimageL.png": "/ttaskLandingpage/static/media/heroimageL.c2e534ac6351ddf2bd4e.png",
+    "static/media/heroimageD.png": "/ttaskLandingpage/static/media/heroimageD.5d60c4a22524c2be18dd.png",
+    "static/media/Sbbg.png": "/ttaskLandingpage/static/media/Sbbg.0c83f15fa5be2b3b5b05.png",
+    "static/media/image1L.png": "/ttaskLandingpage/static/media/image1L.fa5ab9fc1ce21915ba4c.png",
+    "static/media/image2L.png": "/ttaskLandingpage/static/media/image2L.2fd95c523925105ce727.png",
+    "static/media/image3L.png": "/ttaskLandingpage/static/media/image3L.aeb570b24272a07537fa.png",
+    "static/media/image1D.png": "/ttaskLandingpage/static/media/image1D.7639f09640401510d044.png",
+    "static/media/image2D.png": "/ttaskLandingpage/static/media/image2D.62fed26d259792aca7e9.png",
+    "static/media/image3D.png": "/ttaskLandingpage/static/media/image3D.04d9049a78cadb37cb6d.png",
+    "static/media/revicons.eot": "/ttaskLandingpage/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/footerbox.png": "/ttaskLandingpage/static/media/footerbox.d1192e1c42c7494d288b.png",
+    "static/media/revicons.ttf": "/ttaskLandingpage/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/ttaskLandingpage/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/metamask.svg": "/ttaskLandingpage/static/media/metamask.4368e45a954072443e7a.svg",
+    "static/media/MetaMask_Fox.svg": "/ttaskLandingpage/static/media/MetaMask_Fox.45038d58ac694e29ee70.svg",
+    "index.html": "/ttaskLandingpage/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.1c7745e0.css",
+    "static/js/main.350709b4.js"
+  ]
+}
