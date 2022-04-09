@@ -47,7 +47,7 @@ function HHeader() {
 
         <Header.MiddleFrame>
           <Header.TextLinks
-            href="https://telostask.app/login"
+            href="https://main.telostask.app/login"
             target="_blank"
             rel="noopener"
             className='commingSoonP'
@@ -77,7 +77,7 @@ function HHeader() {
 
           <Header.ButtonLink
             dwidth={48}
-            onClick={() => (window.location.href = "https://telostask.app")}
+            onClick={() => (window.location.href = "https://main.telostask.app/register")}
           >
             Sign Up
           </Header.ButtonLink>

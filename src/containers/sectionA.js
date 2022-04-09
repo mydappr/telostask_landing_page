@@ -29,7 +29,7 @@ function SSectionA() {
         <SectionA.Body>"Do less, earn more"</SectionA.Body>
         <SectionA.Btnframe>
           <Header.ButtonLink
-            onClick={() => (window.location.href = "https://telostask.app")}
+            onClick={() => (window.location.href = "https://main.telostask.app/register")}
             mwidth={80}
             dwidth={30}
           >

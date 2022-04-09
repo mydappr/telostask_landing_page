@@ -15,7 +15,7 @@ function Modal() {
       <div>
         <button
           className="Cbtn"
-          onClick={() => (window.location.href = "https://telostask.app/login")}
+          onClick={() => (window.location.href = "https://main.telostask.app/login")}
         >
           Login
         </button>

@@ -26,14 +26,14 @@ function FFooter() {
             <Footer.SocialsFrame>
               <Footer.SectionTitle>My Account</Footer.SectionTitle>
               <Footer.Links
-                href="https://telostask.app/login"
+                href="https://main.telostask.app/login"
                 target="_blank"
                 rel="noopener"
               >
                 Login
               </Footer.Links>
               <Footer.Links
-                href="https://telostask.app/register"
+                href="https://main.telostask.app/register"
                 target="_blank"
                 rel="noopener"
               >
