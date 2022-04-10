@@ -70,7 +70,6 @@ export const SecondFrame = styled.div`
 export const SocialsFrame = styled.div`
   margin-right: 2em;
 `;
-
 const swipe = keyframes`
  0%,100%{
   transform: rotate(0deg)
@@ -90,6 +89,7 @@ export const SocialsImg = styled.img`
     width: 20%;
   }
 `;
+
 export const Copyright = styled.p`
   @media (max-width: 600px) {
     max-width: 300px;

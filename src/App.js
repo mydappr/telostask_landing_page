@@ -6,7 +6,7 @@ import SSectionC from "./containers/sectionC";
 import SSectionD from "./containers/sectionD";
 import FFooter from "./containers/footer";
 import { ThemeProvider } from "styled-components";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { GlobalStyles, darkTheme, lightTheme } from "./containers/theme";
 import { useState, useRef } from "react";
 import { ThemeContext } from "./lib/context";
@@ -22,14 +22,14 @@ function App() {
 
   // login modal
   const [modal, setModal] = useState(false);
-  console.log('rendered')
+  console.log("rendered");
 
   localStorage.setItem("userThemeChoice", theme);
   return (
     <ThemeContext.Provider value={{ theme, setTheme, modal, setModal, appRef }}>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-        <BrowserRouter>
+        <Router>
           <div className="App">
             <HHeader />
             <div onClick={() => setModal(false)}>
@@ -38,11 +38,10 @@ function App() {
               <SSectionC />
               <NNews />
               <SSectionD />
-
               <FFooter />
             </div>
           </div>
-        </BrowserRouter>
+        </Router>
       </ThemeProvider>
     </ThemeContext.Provider>
   );
