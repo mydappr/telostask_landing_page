@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ttaskLandingpage/static/css/main.1c7745e0.css",
-    "main.js": "/ttaskLandingpage/static/js/main.0c658339.js",
+    "main.js": "/ttaskLandingpage/static/js/main.53417f5a.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
     "static/media/telostaskwhitepaper.pdf": "/ttaskLandingpage/static/media/telostaskwhitepaper.599511bf8de1df189906.pdf",
     "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.1c7745e0.css",
-    "static/js/main.0c658339.js"
+    "static/js/main.53417f5a.js"
   ]
 }
