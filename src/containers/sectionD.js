@@ -30,7 +30,7 @@ function SSectionD() {
         </SectionD.SecondFrameBody>
         <SectionD.ButtonHolder>
           <Header.ButtonLink
-            onClick={() => (window.location.href = "https://telostask.app")}
+            onClick={() => (window.location.href = "https://main.telostask.app")}
           >
             Get Started Today!
           </Header.ButtonLink>

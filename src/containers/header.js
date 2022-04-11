@@ -72,7 +72,7 @@ function HHeader() {
         </Header.MiddleFrame>
 
         <Header.RightFrame id="login">
-          <Header.TextLinks onPointerEnter={() => setModal(!modal)} onClick={() => setModal(!modal)}>
+          <Header.TextLinks onPointerEnter={() => setModal(!modal)}>
             Login
           </Header.TextLinks>
 
