@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ttaskLandingpage/static/css/main.1c7745e0.css",
-    "main.js": "/ttaskLandingpage/static/js/main.53417f5a.js",
+    "main.js": "/ttaskLandingpage/static/js/main.b7b1af2f.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
-    "static/media/telostaskwhitepaper.pdf": "/ttaskLandingpage/static/media/telostaskwhitepaper.599511bf8de1df189906.pdf",
     "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
     "static/media/macro.png": "/ttaskLandingpage/static/media/macro.3d34d5ce946f2d1d4da0.png",
     "static/media/taskdrop.png": "/ttaskLandingpage/static/media/taskdrop.a25d63cd789d957f982e.png",
     "static/media/micro.png": "/ttaskLandingpage/static/media/micro.554b47d4fd9f0900c4a7.png",
     "static/media/WalletConnect.png": "/ttaskLandingpage/static/media/WalletConnect.13798276a43e02957131.png",
+    "static/media/TaskPaperV2.pdf": "/ttaskLandingpage/static/media/TaskPaperV2.66275519c1fee657ed78.pdf",
     "static/media/metamask.png": "/ttaskLandingpage/static/media/metamask.900b5bef784601bc0be8.png",
     "static/media/heroimageL.png": "/ttaskLandingpage/static/media/heroimageL.c2e534ac6351ddf2bd4e.png",
     "static/media/heroimageD.png": "/ttaskLandingpage/static/media/heroimageD.5d60c4a22524c2be18dd.png",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.1c7745e0.css",
-    "static/js/main.53417f5a.js"
+    "static/js/main.b7b1af2f.js"
   ]
 }
