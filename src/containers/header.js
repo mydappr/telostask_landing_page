@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { Header } from "../components";
 import { ThemeContext } from "../lib/context";
 import Modal from "./Modal";
-import telostaskwhitepaper from '../telostaskwhitepaper.pdf'
+import TaskPaperV2 from  '../pdf/TaskPaperV2.pdf'
 
 function HHeader() {
   const { theme, setTheme, modal, setModal } = useContext(ThemeContext);
@@ -57,7 +57,7 @@ function HHeader() {
             {/* <span className="commingSoon">Coming soon!</span> */}
           </Header.TextLinks>
           <Header.TextLinks
-            href={telostaskwhitepaper}
+            href={TaskPaperV2}
             target="_blank"
             rel="noopener"
           >
@@ -69,7 +69,7 @@ function HHeader() {
           <Header.TextLinks href="https://telostask.io" target="_blank" rel="noopener">
             Info
           </Header.TextLinks>
-        </Header.MiddleFrame>
+        </Header.MiddleFrame> 
 
         <Header.RightFrame id="login">
           <Header.TextLinks onPointerEnter={() => setModal(!modal)}>
