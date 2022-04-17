@@ -2,22 +2,22 @@ import { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { News } from "../components";
-import {Featured} from './Featured'
+import { Featured } from "./Featured";
 
 function NNews() {
   const [data, setData] = useState([]);
 
-  useEffect(() => {
+  useEffect(async () => {
     const url =
-      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@Telostask";
+      "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftelostask.medium.com%2Ffeed";
 
-    fetch(url)
-      .then((res) => res.json())
-      .then((data) => {
-        const items = data.items;
-
-        setData(items);
-      });
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      setData(data.items);
+    } catch (error) {
+      console.log(error);
+    }
   }, []);
 
   const responsive = {
