@@ -9,7 +9,7 @@ function NNews() {
 
   useEffect(async () => {
     const url =
-      "https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Ftelostask.medium.com%2Ffeed";
+      " ";
 
     try {
       const res = await fetch(url);
@@ -85,7 +85,7 @@ function NNews() {
         className="sliderFrame"
         responsive={responsive}
       >
-        {data.map((post) => {
+        {data?.map((post) => {
           if (
             post.thumbnail.includes(".png") ||
             post.thumbnail.includes(".jpeg")
