@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ttaskLandingpage/static/css/main.1c7745e0.css",
-    "main.js": "/ttaskLandingpage/static/js/main.cbbc83bd.js",
+    "main.js": "/ttaskLandingpage/static/js/main.e1d869ad.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
     "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
     "static/media/macro.png": "/ttaskLandingpage/static/media/macro.3d34d5ce946f2d1d4da0.png",
@@ -24,11 +24,11 @@
     "static/media/revicons.ttf": "/ttaskLandingpage/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/ttaskLandingpage/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/metamask.svg": "/ttaskLandingpage/static/media/metamask.4368e45a954072443e7a.svg",
-    "static/media/MetaMask_Fox.svg": "/ttaskLandingpage/static/media/MetaMask_Fox.45038d58ac694e29ee70.svg",
+    "static/media/MetaMask_Fox.svg": "/ttaskLandingpage/static/media/MetaMask_Fox.b6b09bd47f86be68859e.svg",
     "index.html": "/ttaskLandingpage/index.html"
   },
   "entrypoints": [
     "static/css/main.1c7745e0.css",
-    "static/js/main.cbbc83bd.js"
+    "static/js/main.e1d869ad.js"
   ]
 }
