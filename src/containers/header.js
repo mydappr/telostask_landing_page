@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { Header } from "../components";
 import { ThemeContext } from "../lib/context";
 import Modal from "./Modal";
-import TaskPaperV2 from  '../pdf/TaskPaperV2.pdf'
+import TaskPaperV3 from  '../pdf/TaskPaperV3.pdf'
 
 function HHeader() {
   const { theme, setTheme, modal, setModal } = useContext(ThemeContext);
@@ -57,7 +57,7 @@ function HHeader() {
             {/* <span className="commingSoon">Coming soon!</span> */}
           </Header.TextLinks>
           <Header.TextLinks
-            href={TaskPaperV2}
+            href={TaskPaperV3}
             target="_blank"
             rel="noopener"
           >
