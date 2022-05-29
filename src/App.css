@@ -166,3 +166,28 @@ iframe {
   right: 46rem;
   display: block;
 }
+
+/* sponsors */
+.sponsors {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+  padding: 2em;
+  align-items: center;
+  margin-top: 2em;
+}
+
+/* .sponsors > img:hover {
+  animation-name: swipe;
+  animation-duration: 4s;
+} */
+.sponsors > a> img {
+  width: 80%;
+  max-width: 200px;
+  cursor: pointer;
+}
+.sponsors > a{
+  margin: 0 auto;
+}

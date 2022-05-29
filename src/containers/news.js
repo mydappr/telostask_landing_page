@@ -76,39 +76,29 @@ function NNews() {
         })}
       </Carousel>
 
-      <News.Headline>Recent Articles</News.Headline>
+      
+      <div className="sponsors">
+        <a href="https://www.telos.net/" target="_blank" rel="noopener">
+          <img src="https://miro.medium.com/max/1400/1*-zwjwHuIHA4LrL8lUf6KiA.png" />
+        </a>
+        <a href="https://bscscan.com/token/0x5090AA76fC140e20706f26e82EbC1dccB0D0438b" target="_blank" rel="noopener">
+          <img src="https://gameplace.finance/images/binance-smart-chain.png" />
+        </a>
 
-      <Carousel
-        swipeable={true}
-        draggable={false}
-        showDots={true}
-        className="sliderFrame"
-        responsive={responsive}
-      >
-        {data?.map((post) => {
-          if (
-            post.thumbnail.includes(".png") ||
-            post.thumbnail.includes(".jpeg")
-          ) {
-            return (
-              <News
-                key={post.pubDate}
-                onClick={() => (window.location.href = `${post.link}`)}
-              >
-                <News.Thumbnail src={post.thumbnail} />
-                <News.NewsInfo>
-                  <News.Author>{post.author}</News.Author>
-                  <News.Date>{post.pubDate}</News.Date>
-                  <News.Title>{post.title}</News.Title>
-                </News.NewsInfo>
-              </News>
-            );
-          } else {
-            console.log(post);
-            return null;
-          }
-        })}
-      </Carousel>
+        <a href="https://app.tstarter.io/telos/pools/17/" target="_blank" rel="noopener">
+          <img src="https://images.hive.blog/DQmQVYXVcMsbehJZxGJonfBTraZ8pLePWU9VvB3EuJ2aTuu/images.png" />
+        </a>
+
+        <a href="https://www.pinksale.finance/" target="_blank" rel="noopener">
+          <img src="https://gameplace.finance/images/pinksale.png" />
+        </a>
+        <a href="https://coinmarketcap.com/" target="_blank" rel="noopener">
+          <img src="https://gameplace.finance/images/coinmarketcap.png" />
+        </a>
+        <a href="https://pancakeswap.finance/" target="_blank" rel="noopener">
+          <img src="https://gameplace.finance/images/pancakeswap.png" />
+        </a>
+      </div>
     </div>
   );
 }
