@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ttaskLandingpage/static/css/main.1c7745e0.css",
-    "main.js": "/ttaskLandingpage/static/js/main.5f4cb3c8.js",
+    "main.css": "/ttaskLandingpage/static/css/main.08d8e2b0.css",
+    "main.js": "/ttaskLandingpage/static/js/main.2ae2956f.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
     "static/media/TaskPaperV3.pdf": "/ttaskLandingpage/static/media/TaskPaperV3.7692c2840777d9da384a.pdf",
     "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
@@ -28,7 +28,7 @@
     "index.html": "/ttaskLandingpage/index.html"
   },
   "entrypoints": [
-    "static/css/main.1c7745e0.css",
-    "static/js/main.5f4cb3c8.js"
+    "static/css/main.08d8e2b0.css",
+    "static/js/main.2ae2956f.js"
   ]
 }
