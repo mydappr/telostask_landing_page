@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/ttaskLandingpage/static/css/main.08d8e2b0.css",
-    "main.js": "/ttaskLandingpage/static/js/main.2ae2956f.js",
+    "main.css": "/ttaskLandingpage/static/css/main.a90dbf0f.css",
+    "main.js": "/ttaskLandingpage/static/js/main.3512c2fd.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
     "static/media/TaskPaperV3.pdf": "/ttaskLandingpage/static/media/TaskPaperV3.7692c2840777d9da384a.pdf",
+    "static/media/mobileGif.gif": "/ttaskLandingpage/static/media/mobileGif.1fae0a7937df3e0ff39b.gif",
+    "static/media/apple.png": "/ttaskLandingpage/static/media/apple.7adf4f5889f32b771706.png",
     "static/media/taskclap.png": "/ttaskLandingpage/static/media/taskclap.ae72f869cce08784be9f.png",
     "static/media/macro.png": "/ttaskLandingpage/static/media/macro.3d34d5ce946f2d1d4da0.png",
     "static/media/taskdrop.png": "/ttaskLandingpage/static/media/taskdrop.a25d63cd789d957f982e.png",
@@ -28,7 +30,7 @@
     "index.html": "/ttaskLandingpage/index.html"
   },
   "entrypoints": [
-    "static/css/main.08d8e2b0.css",
-    "static/js/main.2ae2956f.js"
+    "static/css/main.a90dbf0f.css",
+    "static/js/main.3512c2fd.js"
   ]
 }
