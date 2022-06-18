@@ -74,7 +74,6 @@ iframe {
   margin-bottom: 3em;
 }
 .newsWrapper {
- 
 }
 
 .man {
@@ -183,11 +182,108 @@ iframe {
   animation-name: swipe;
   animation-duration: 4s;
 } */
-.sponsors > a> img {
+.sponsors > a > img {
   width: 80%;
   max-width: 200px;
   cursor: pointer;
 }
-.sponsors > a{
+.sponsors > a {
   margin: 0 auto;
 }
+
+/* mobile screenshot */
+
+.mobilegif {
+  height: 90vh;
+  
+
+}
+.mobiletitle{
+  font-size: 2.5rem;
+  font-weight: lighter;
+  text-align: start;
+  align-self: start;
+ 
+}
+
+.mobileContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 1em;
+  align-items:center;
+  margin-bottom: 5em;
+  
+}
+.mobileleft {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 1em;
+  align-self: flex-end;
+}
+.onM{
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .onD{
+    display: none;
+  }
+  .onM{
+    display: block;
+    text-align: center;
+    padding: 1em;
+  }
+  .mobileContent {
+    flex-direction: column;
+  }
+  .mobileleft {
+    order: 1;
+    flex-direction: column;
+    align-self: flex-start;
+    margin: 0 auto;
+  }
+  
+  .mobiletitle{
+    font-size: 1.5rem;
+  }
+  .mobileContent>img{
+    order: -1;
+  }
+ 
+}
+
+.appStoreImg {
+  max-width: 40px;
+;
+}
+
+.mobileleft > a {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.6em;
+  background-color: black;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  color: white;
+}
+.mobileleft>a:hover{
+  background-color: #FFC600;
+  color: black;
+}
+ 
+.mobileleft>a>span{
+  font-size: 1rem;
+}
+.mobileleft>a>span>strong{
+  font-size: 1.5rem;
+  display: block;
+}
+
+.mobiletext{
+  text-align: start;
+}
+

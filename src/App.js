@@ -11,6 +11,7 @@ import { GlobalStyles, darkTheme, lightTheme } from "./containers/theme";
 import { useState, useRef } from "react";
 import { ThemeContext } from "./lib/context";
 import NNews from "./containers/news";
+import MobileGif from "./containers/MobileGif";
  
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
               <SSectionA />
               <SSectionB />
               <SSectionC />
+              <MobileGif/>
               <NNews />
               <SSectionD />
               <FFooter />
