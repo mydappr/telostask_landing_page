@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ttaskLandingpage/static/css/main.a90dbf0f.css",
-    "main.js": "/ttaskLandingpage/static/js/main.3512c2fd.js",
+    "main.js": "/ttaskLandingpage/static/js/main.15635e75.js",
     "static/js/27.16ec021d.chunk.js": "/ttaskLandingpage/static/js/27.16ec021d.chunk.js",
     "static/media/TaskPaperV3.pdf": "/ttaskLandingpage/static/media/TaskPaperV3.7692c2840777d9da384a.pdf",
     "static/media/mobileGif.gif": "/ttaskLandingpage/static/media/mobileGif.1fae0a7937df3e0ff39b.gif",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.a90dbf0f.css",
-    "static/js/main.3512c2fd.js"
+    "static/js/main.15635e75.js"
   ]
 }
