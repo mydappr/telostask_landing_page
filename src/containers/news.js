@@ -77,27 +77,27 @@ function NNews() {
       </Carousel>
 
       
+       
+
       <div className="sponsors">
         <a href="https://www.telos.net/" target="_blank" rel="noopener">
           <img src="https://miro.medium.com/max/1400/1*-zwjwHuIHA4LrL8lUf6KiA.png" />
         </a>
         <a href="https://bscscan.com/token/0x5090AA76fC140e20706f26e82EbC1dccB0D0438b" target="_blank" rel="noopener">
-          <img src="https://gameplace.finance/images/binance-smart-chain.png" />
+          <img src="https://www.cryptonary.com/wp-content/uploads/2022/03/Cryptonary_BNB-Chain-2.png.webp" />
         </a>
 
         <a href="https://app.tstarter.io/telos/pools/17/" target="_blank" rel="noopener">
           <img src="https://images.hive.blog/DQmQVYXVcMsbehJZxGJonfBTraZ8pLePWU9VvB3EuJ2aTuu/images.png" />
         </a>
 
-        <a href="https://www.pinksale.finance/" target="_blank" rel="noopener">
-          <img src="https://gameplace.finance/images/pinksale.png" />
+        <a href="https://eos.io/" target="_blank" rel="noopener">
+          <img src="https://image4.owler.com/logo/eos_owler_20190711_084620_original.jpg" />
         </a>
         <a href="https://coinmarketcap.com/" target="_blank" rel="noopener">
-          <img src="https://gameplace.finance/images/coinmarketcap.png" />
+          <img src="https://s2.coinmarketcap.com/static/cloud/img/splash_600x315_1.png?_=5d7538e" />
         </a>
-        <a href="https://pancakeswap.finance/" target="_blank" rel="noopener">
-          <img src="https://gameplace.finance/images/pancakeswap.png" />
-        </a>
+   
       </div>
     </div>
   );
