@@ -3,10 +3,13 @@ import { Header } from "../components";
 import { ThemeContext } from "../lib/context";
 import Modal from "./Modal";
 import TaskPaperV3 from  '../pdf/TaskPaperV3.pdf'
+import { useNavigate } from "react-router-dom";
+
 
 function HHeader() {
   const { theme, setTheme, modal, setModal } = useContext(ThemeContext);
   const [width, setWidth] = useState(0);
+  const navigation = useNavigate()
 
   // Change theme handler
   const themeToggler = () => {
@@ -48,7 +51,7 @@ function HHeader() {
 
         <Header.MiddleFrame>
           <Header.TextLinks
-            href="https://main.telostask.app/login"
+            href="404"
             target="_blank"
             rel="noopener"
             className='commingSoonP'
@@ -66,9 +69,9 @@ function HHeader() {
           <Header.TextLinks href="https://docs.google.com/presentation/d/1RzQHW-9KR8mDFRNonnuSmxK2y37f0i-12PDA61uvo_4/edit#slide=id.p1" target="_blank" rel="noopener">
             PitchDeck
           </Header.TextLinks>
-          <Header.TextLinks href="https://telostask.io" target="_blank" rel="noopener">
+          {/* <Header.TextLinks href="https://telostask.io" target="_blank" rel="noopener">
             Info
-          </Header.TextLinks>
+          </Header.TextLinks> */}
         </Header.MiddleFrame> 
 
         <Header.RightFrame id="login">
@@ -78,7 +81,10 @@ function HHeader() {
 
           <Header.ButtonLink
             dwidth={48}
-            onClick={() => (window.location.href = "https://main.telostask.app/register")}
+            onClick={() =>{
+              navigation('404')
+            }}
+            // onClick={() => (window.location.href = "https://main.telostask.app/register")}
           >
             Sign Up
           </Header.ButtonLink>

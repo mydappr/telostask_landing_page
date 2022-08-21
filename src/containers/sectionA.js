@@ -6,11 +6,15 @@ import heroD from "../icons/heroD.json";
 import heroL from "../icons/heroL.json";
 import { useContext, useEffect } from "react";
 import { ThemeContext } from "../lib/context";
+import { useNavigate } from "react-router-dom";
+
+
 
 
 function SSectionA() {
   const { theme } = useContext(ThemeContext);
-
+  
+  const navigation = useNavigate()
   // define sectionA animation
   useEffect(() => {
     const anim = lottie.loadAnimation({
@@ -29,7 +33,10 @@ function SSectionA() {
         <SectionA.Body>"Do less, earn more"</SectionA.Body>
         <SectionA.Btnframe>
           <Header.ButtonLink
-            onClick={() => (window.location.href = "https://main.telostask.app/register")}
+            // onClick={() => (window.location.href = "https://main.telostask.app/register")}
+            onClick={() =>{
+              navigation('404')
+            }}
             mwidth={80}
             dwidth={30}
           >

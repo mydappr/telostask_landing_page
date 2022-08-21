@@ -12,7 +12,6 @@ import { useState, useRef } from "react";
 import { ThemeContext } from "./lib/context";
 import NNews from "./containers/news";
 import MobileGif from "./containers/MobileGif";
- 
 
 function App() {
   const getUserTheme = localStorage.getItem("userThemeChoice");
@@ -30,20 +29,19 @@ function App() {
     <ThemeContext.Provider value={{ theme, setTheme, modal, setModal, appRef }}>
       <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
         <GlobalStyles />
-        <Router>
-          <div className="App">
-            <HHeader />
-            <div onClick={() => setModal(false)}>
-              <SSectionA />
-              <SSectionB />
-              <SSectionC />
-              <MobileGif/>
-              <NNews />
-              <SSectionD />
-              <FFooter />
-            </div>
+
+        <div className="App">
+          <HHeader />
+          <div onClick={() => setModal(false)}>
+            <SSectionA />
+            <SSectionB />
+            <SSectionC />
+            <MobileGif />
+            <NNews />
+            <SSectionD />
+            <FFooter />
           </div>
-        </Router>
+        </div>
       </ThemeProvider>
     </ThemeContext.Provider>
   );

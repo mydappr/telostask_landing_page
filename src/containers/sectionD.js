@@ -1,7 +1,12 @@
 import React from "react";
 import { SectionD, Header } from "../components";
+import { useNavigate } from "react-router-dom";
+
+
 
 function SSectionD() {
+  const navigation = useNavigate()
+
   return (
     <SectionD>
       <SectionD.FirstFrame>
@@ -30,7 +35,10 @@ function SSectionD() {
         </SectionD.SecondFrameBody>
         <SectionD.ButtonHolder>
           <Header.ButtonLink
-            onClick={() => (window.location.href = "https://main.telostask.app")}
+              onClick={() =>{
+                navigation('404')
+              }}
+            // onClick={() => (window.location.href = "https://main.telostask.app")}
           >
             Get Started Today!
           </Header.ButtonLink>

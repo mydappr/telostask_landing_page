@@ -195,15 +195,12 @@ iframe {
 
 .mobilegif {
   height: 90vh;
-  
-
 }
-.mobiletitle{
+.mobiletitle {
   font-size: 2.5rem;
   font-weight: lighter;
   text-align: start;
   align-self: start;
- 
 }
 
 .mobileContent {
@@ -212,9 +209,8 @@ iframe {
   max-width: 1000px;
   margin: 2em auto;
   padding: 1em;
-  align-items:center;
+  align-items: center;
   margin-bottom: 5em;
-  
 }
 .mobileleft {
   display: flex;
@@ -223,15 +219,15 @@ iframe {
   margin-bottom: 1em;
   align-self: flex-end;
 }
-.onM{
+.onM {
   display: none;
 }
 
 @media (max-width: 650px) {
-  .onD{
+  .onD {
     display: none;
   }
-  .onM{
+  .onM {
     display: block;
     text-align: center;
     padding: 1em;
@@ -245,19 +241,17 @@ iframe {
     align-self: flex-start;
     margin: 0 auto;
   }
-  
-  .mobiletitle{
+
+  .mobiletitle {
     font-size: 1.5rem;
   }
-  .mobileContent>img{
+  .mobileContent > img {
     order: -1;
   }
- 
 }
 
 .appStoreImg {
   max-width: 40px;
-;
 }
 
 .mobileleft > a {
@@ -270,20 +264,54 @@ iframe {
   cursor: pointer;
   color: white;
 }
-.mobileleft>a:hover{
-  background-color: #FFC600;
+.mobileleft > a:hover {
+  background-color: #ffc600;
   color: black;
 }
- 
-.mobileleft>a>span{
+
+.mobileleft > a > span {
   font-size: 1rem;
 }
-.mobileleft>a>span>strong{
+.mobileleft > a > span > strong {
   font-size: 1.5rem;
   display: block;
 }
 
-.mobiletext{
+.mobiletext {
   text-align: start;
 }
 
+.maintenance {
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  text-align: center;
+  width: fit-content;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.maintenanceTitle {
+  opacity: 0.8;
+}
+.maintenanceMessage {
+  font-style: italic;
+}
+.maintenanceBtn {
+  background-color: #ffc600;
+  padding: 1rem;
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.maintenanceLottie {
+  max-width: 500px;
+  margin: 0 auto;
+}
